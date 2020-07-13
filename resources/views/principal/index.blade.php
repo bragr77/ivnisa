@@ -65,7 +65,9 @@
                 <div class="row align-items-center">
 
                     <div class="col-6 col-xl-2">
-                        <img src="img/navlogo2.png" alt="Logo Empresa">
+                        <a href="{{ route('login') }}">
+                            <img src="img/navlogo2.png" alt="Logo Empresa">
+                        </a>
                     </div>
 
                     <div class="col-12 col-md-10 d-none d-xl-block">
