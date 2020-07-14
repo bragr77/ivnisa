@@ -232,7 +232,7 @@
 
                     <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
                         <figure class="circle-bg">
-                            <img src="img/qs2.jpg" alt="Free Website Template by Free-Template.co" class="img-fluid img-thumbnail shadow-lg">
+                            <img src="img/qs3.jpg" alt="Free Website Template by Free-Template.co" class="img-fluid img-thumbnail shadow-lg">
                         </figure>
                     </div>
                 </div>
@@ -251,7 +251,7 @@
                 <div class="row">
                     <div class="col-md-6 col-lg-3">
                         <div class="card resaltar my-2" data-aos=" fade-up " data-aos-delay=" ">
-                            <img src="img/qs1.jpg " class="card-img-top" alt="... ">
+                            <img src="img/p_personal.jpg " class="card-img-top" alt="... ">
                             <div class="card-body text-center ">
                                 <h5 class="card-title text-primary font-weight-bold ">Personales</h5>
                                 <p class="card-text text-justify ">"Descripcion del prestamo personal ". Aprobación en menos de 24 horas</p>
