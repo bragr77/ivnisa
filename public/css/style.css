@@ -816,7 +816,7 @@ body:after {
 /* Blocks */
 
 .site-blocks-cover {
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
     background-position: center center;
@@ -858,6 +858,9 @@ body:after {
     font-size: 4rem;
     font-weight: 900;
     color: #074C46;
+    /* Cambio de color letra de los sliders */
+    /* text-shadow: black 0.1em 0.1em 0.2em; */
+    text-shadow: 0 0 0.2em #fff, 0 0 0.2em #fff, 0 0 0.2em #fff, 0 0 0.2em #fff, 0 0 0.2em #fff;
     font-weight: 900;
 }
 

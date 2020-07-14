@@ -65,9 +65,7 @@
                 <div class="row align-items-center">
 
                     <div class="col-6 col-xl-2">
-                        <a href="{{ route('login') }}">
-                            <img src="img/navlogo2.png" alt="Logo Empresa">
-                        </a>
+                        <img src="img/navlogo2.png" alt="Logo Empresa">
                     </div>
 
                     <div class="col-12 col-md-10 d-none d-xl-block">
@@ -103,53 +101,39 @@
                     <!-- Aqui van los sliders -->
                     <div class="col-md-10 mt-lg-5 text-center">
                         <div class="single-text owl-carousel">
-                            <div class="slide ">
-                                <h1 class="text-uppercase" data-aos="fade-up" data-aos-delay="200">Soluciones a tu alcance.</h1>
-                                <p class="mb-5 desc" data-aos="fade-up" data-aos-delay="300">Con todas las facilidades que necesites. Préstamos al instante con cuotas bajas ajustadas a tu medida.</p>
-                            </div>
 
                             <div class="slide">
                                 <h1 class="text-uppercase" data-aos="fade-up">Préstamos Personales</h1>
-                                <p class="mb-5 desc" data-aos="fade-up" data-aos-delay="100">Aprobación inmediata a las mejores tasas, solicitud online y presencial.</p>
+                                <p class="mb-5 desc font-weight-bold" data-aos="fade-up" data-aos-delay="100">Aprobación inmediata a las mejores tasas, solicitud online y presencial.</p>
                             </div>
-
                             <div class="slide">
-                                <h1 class="text-uppercase" data-aos="fade-up">Préstamos Comerciales.</h1>
-                                <p class="mb-5 desc" data-aos="fade-up" data-aos-delay="100">Aprobación inmediata a las mejores tasas, solicitud online y presencial.</p>
+                                <h1 class="text-uppercase" data-aos="fade-up">Préstamos Comerciales</h1>
+                                <p class="mb-5 desc font-weight-bold" data-aos="fade-up" data-aos-delay="100">Aprobación inmediata a las mejores tasas, solicitud online y presencial.</p>
                             </div>
-
                             <div class="slide">
-                                <h1 class="text-uppercase" data-aos="fade-up">Préstamos Hipotecarios.</h1>
-                                <p class="mb-5 desc" data-aos="fade-up" data-aos-delay="100">Aprobación inmediata a las mejores tasas, solicitud online y presencial.</p>
+                                <h1 class="text-uppercase" data-aos="fade-up">Préstamos Hipotecarios</h1>
+                                <p class="mb-5 desc font-weight-bold" data-aos="fade-up" data-aos-delay="100">Aprobación inmediata a las mejores tasas, solicitud online y presencial.</p>
                             </div>
-
                             <div class="slide">
-                                <h1 class="text-uppercase" data-aos="fade-up">Préstamos con Garantía.</h1>
-                                <p class="mb-5 desc" data-aos="fade-up" data-aos-delay="100">Aprobación inmediata a las mejores tasas, solicitud online y presencial.</p>
+                                <h1 class="text-uppercase" data-aos="fade-up">Financiamientos de Vehículos o Inmuebles</h1>
+                                <p class="mb-5 desc font-weight-bold" data-aos="fade-up" data-aos-delay="100">Aprobación inmediata a las mejores tasas, solicitud online y presencial.</p>
                             </div>
-
                             <div class="slide">
                                 <h1 class="text-uppercase" data-aos="fade-up">Consolidación de deudas</h1>
-                                <p class="mb-5 desc" data-aos="fade-up" data-aos-delay="100">Aprobación inmediata a las mejores tasas, solicitud online y presencial.</p>
+                                <p class="mb-5 desc font-weight-bold" data-aos="fade-up" data-aos-delay="100">Aprobación inmediata a las mejores tasas, solicitud online y presencial.</p>
                             </div>
-
                             <div class="slide">
-                                <h1 class="text-uppercase" data-aos="fade-up">Financiamiento de vehículos o inmuebles</h1>
-                                <p class="mb-5 desc" data-aos="fade-up" data-aos-delay="100">Aprobación inmediata a las mejores tasas, solicitud online y presencial.</p>
-                            </div>
-
-                            <div class="slide">
-                                <h1 class="text-uppercase" data-aos="fade-up">Negocios diversos.</h1>
-                                <p class="mb-5 desc" data-aos="fade-up" data-aos-delay="100">Aprobación inmediata a las mejores tasas, solicitud online y presencial.</p>
+                                <h1 class="text-uppercase" data-aos="fade-up">Reparación de Historial Crediticio</h1>
+                                <p class="mb-5 desc font-weight-bold" data-aos="fade-up" data-aos-delay="100">Aprobación inmediata a las mejores tasas, solicitud online y presencial.</p>
                             </div>
 
                         </div>
                         <div class="mt-4">
                             <!-- Button trigger modal -->
                             <button type="button" class="btn btn-success m-2" data-toggle="modal" data-target="#exampleModal">
-                                Calcular Prestamo
+                                Calcular Préstamo
                             </button>
-                            <button href="#" class="btn btn-primary m-2">Solicitar Prestamo</button>
+                            <button href="#" class="btn btn-primary m-2">Solicitar Préstamo</button>
                         </div>
                     </div>
                     <!-- Final de Aqui van los sliders -->
@@ -180,7 +164,7 @@
                 <div class="row my-3">
                     <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
                         <figure class="circle-bg">
-                            <img src="img/qs1.jpg" alt="Free Website Template by Free-Template.co" class="img-fluid img-thumbnail shadow-lg">
+                            <img src="img/n1.jpg" alt="Free Website Template by Free-Template.co" class="img-fluid img-thumbnail shadow-lg">
                         </figure>
                     </div>
                     <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
@@ -189,20 +173,40 @@
                             <strong>Te ayudamos a crecer</strong>
                         </h1>
 
-                        <span class="icon-check-square-o" style="font-size: 20px; color: #FD7E14"></span>
-                        <span>Tasas atractivas</span>
+                        <span class="icon-check-square-o" style="font-size: 20px; color: #074C46"></span>
+                        <span>Tasas atractivas y justas.</span>
                         <br/>
 
-                        <span class="icon-check-square-o" style="font-size: 20px; color: #FD7E14"></span>
-                        <span>Aprobación Inmediata</span>
+                        <span class="icon-check-square-o" style="font-size: 20px; color: #074C46"></span>
+                        <span>Cuotas a tu medida</span>
                         <br/>
 
-                        <span class="icon-check-square-o" style="font-size: 20px; color: #FD7E14"></span>
-                        <span>Sin Garante</span>
+                        <span class="icon-check-square-o" style="font-size: 20px; color: #074C46"></span>
+                        <span>Trámite sencillo.</span>
                         <br/>
 
-                        <span class="icon-check-square-o" style="font-size: 20px; color: #FD7E14"></span>
-                        <span>No tomamos en cuenta el historial crediticio</span>
+                        <span class="icon-check-square-o" style="font-size: 20px; color: #074C46"></span>
+                        <span>Sin gastos de cierre.</span>
+                        <br/>
+
+                        <span class="icon-check-square-o" style="font-size: 20px; color: #074C46"></span>
+                        <span>Aprobación inmediata.</span>
+                        <br/>
+
+                        <span class="icon-check-square-o" style="font-size: 20px; color: #074C46"></span>
+                        <span>Flexibilidad con los pagos.</span>
+                        <br/>
+
+                        <span class="icon-check-square-o" style="font-size: 20px; color: #074C46"></span>
+                        <span>Sin bancos.</span>
+                        <br/>
+
+                        <span class="icon-check-square-o" style="font-size: 20px; color: #074C46"></span>
+                        <span>No importa tu historial crediticio.</span>
+                        <br/>
+
+                        <span class="icon-check-square-o" style="font-size: 20px; color: #074C46"></span>
+                        <span>Asesoria financiera incluida.</span>
 
 
 
@@ -216,23 +220,23 @@
                             <strong>Nuestros Valores</strong>
                         </h1>
 
-                        <span class="icon-check-square-o" style="font-size: 20px; color: #FD7E14"></span>
+                        <span class="icon-check-square-o" style="font-size: 20px; color: #074C46"></span>
                         <span class="font-weight-bold" style="font-size: 24px;">Honestidad:</span>
-                        <p>Trabajamos día a día para brindarte un servicio seguro y transparente.</p>
+                        <p class="text-justify">Trabajamos día a día para brindarle un servicio seguro y transparente a nuestros clientes.</p>
 
-                        <span class="icon-check-square-o" style="font-size: 20px; color: #FD7E14"></span>
+                        <span class="icon-check-square-o" style="font-size: 20px; color: #074C46"></span>
                         <span class="font-weight-bold" style="font-size: 24px;">Eficiencia:</span>
-                        <p>Nos enfocamos en hacer de tu solicitud nuestra prioridad.</p>
+                        <p class="text-justify">Nos enfocamos en hacer todas las solicitudes nuestra prioridad, y desarrollamos procesos eficientes para lograr de una manera rápida la aprobación de tu crédito.</p>
 
-                        <span class="icon-check-square-o" style="font-size: 20px; color: #FD7E14"></span>
+                        <span class="icon-check-square-o" style="font-size: 20px; color: #074C46"></span>
                         <span class="font-weight-bold" style="font-size: 24px;">Confianza</span>
-                        <p>Creemos en nuestros clientes es por ello que creamos nuevas oportunidades para su emprendimiento. </p>
+                        <p class="text-justify">Apoyamos a nuestros clientes es por ello que creamos nuevas oportunidades para su emprendimiento, y hacemos que se sientan seguros del crédito que van a recibir.</p>
 
                     </div>
 
                     <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
                         <figure class="circle-bg">
-                            <img src="img/qs3.jpg" alt="Free Website Template by Free-Template.co" class="img-fluid img-thumbnail shadow-lg">
+                            <img src="img/n2.jpg" alt="Free Website Template by Free-Template.co" class="img-fluid img-thumbnail shadow-lg">
                         </figure>
                     </div>
                 </div>
@@ -245,7 +249,7 @@
             <div class="container">
                 <div class="row mb-2">
                     <div class="col-12 text-center" data-aos="fade-up">
-                        <h2 class="section-title mb-3">Prestamos</h2>
+                        <h2 class="section-title mb-3">Préstamos</h2>
                     </div>
                 </div>
                 <div class="row">
@@ -254,7 +258,7 @@
                             <img src="img/p_personal.jpg " class="card-img-top" alt="... ">
                             <div class="card-body text-center ">
                                 <h5 class="card-title text-primary font-weight-bold ">Personales</h5>
-                                <p class="card-text text-justify ">"Descripcion del prestamo personal ". Aprobación en menos de 24 horas</p>
+                                <p class="card-text text-justify ">"Descripcion del préstamo personal ". Aprobación en menos de 24 horas</p>
                             </div>
                             <div class="card-footer btn-group ">
                                 <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#card1">
@@ -270,7 +274,7 @@
                             <img src="img/p_comercial.jpg " class="card-img-top" alt="... ">
                             <div class="card-body text-center ">
                                 <h5 class="card-title text-primary font-weight-bold ">Comerciales</h5>
-                                <p class="card-text text-justify ">"Descripcion del prestamo comercial ". aprobación en menos de 24 horas.</p>
+                                <p class="card-text text-justify ">"Descripcion del préstamo comercial ". aprobación en menos de 24 horas.</p>
                             </div>
                             <div class="card-footer btn-group ">
                                 <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#card2">
@@ -286,7 +290,7 @@
                             <img src="img/p_inmueble.jpg " class="card-img-top" alt="... ">
                             <div class="card-body text-center ">
                                 <h5 class="card-title text-primary font-weight-bold ">Hipotecario</h5>
-                                <p class="card-text text-justify ">"Descripcion del prestamo hipotecario ". Aprobación en menos de 24 horas.</p>
+                                <p class="card-text text-justify ">"Descripcion del préstamo hipotecario ". Aprobación en menos de 24 horas.</p>
                             </div>
                             <div class="card-footer btn-group ">
                                 <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#card3">
@@ -302,7 +306,7 @@
                             <img src="img/p_vehiculo.jpg " class="card-img-top" alt="... ">
                             <div class="card-body text-center ">
                                 <h5 class="card-title text-primary font-weight-bold ">Con Garantía</h5>
-                                <p class="card-text text-justify ">"Descripción del prestamo con garatía ", aprobación en menos de 24 horas.</p>
+                                <p class="card-text text-justify ">"Descripción del préstamo con garatía ", aprobación en menos de 24 horas.</p>
                             </div>
                             <div class="card-footer btn-group ">
                                 <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#card4">
@@ -318,42 +322,42 @@
                         <div class="modal-dialog modal-dialog-centered">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title" id="staticBackdropLabel">Requisitos para el prestamo personal</h5>
+                                    <h5 class="modal-title" id="staticBackdropLabel">Requisitos para el préstamo personal</h5>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
                                 <div class="modal-body ">
                                     <span class="icon-check-square-o " style="font-size: 20px; color: #FD7E14 "></span>
-                                    <span>Requisito 1 Prestamo personal</span>
+                                    <span>Requisito 1 Préstamo personal</span>
                                     <br/>
 
                                     <span class="icon-check-square-o " style="font-size: 20px; color: #FD7E14 "></span>
-                                    <span>Requisito 2 Prestamo personal</span>
+                                    <span>Requisito 2 Préstamo personal</span>
                                     <br/>
 
                                     <span class="icon-check-square-o " style="font-size: 20px; color: #FD7E14 "></span>
-                                    <span>Requisito 3 Prestamo personal</span>
+                                    <span>Requisito 3 Préstamo personal</span>
                                     <br/>
 
                                     <span class="icon-check-square-o " style="font-size: 20px; color: #FD7E14 "></span>
-                                    <span>Requisito 4 Prestamo personal</span>
+                                    <span>Requisito 4 Préstamo personal</span>
                                     <br>
 
                                     <span class="icon-check-square-o " style="font-size: 20px; color: #FD7E14 "></span>
-                                    <span>Requisito 5 Prestamo personal</span>
+                                    <span>Requisito 5 Préstamo personal</span>
                                     <br/>
 
                                     <span class="icon-check-square-o " style="font-size: 20px; color: #FD7E14 "></span>
-                                    <span>Requisito 6 Prestamo personal</span>
+                                    <span>Requisito 6 Préstamo personal</span>
                                     <br/>
 
                                     <span class="icon-check-square-o " style="font-size: 20px; color: #FD7E14 "></span>
-                                    <span>Requisito 7 Prestamo personal</span>
+                                    <span>Requisito 7 Préstamo personal</span>
                                     <br/>
 
                                     <span class="icon-check-square-o " style="font-size: 20px; color: #FD7E14 "></span>
-                                    <span>Requisito 8 Prestamo personal</span>
+                                    <span>Requisito 8 Préstamo personal</span>
                                 </div>
                                 <div class="modal-footer">
                                     <a href="# " class="btn btn-primary ">Solicitar</a>
@@ -374,31 +378,31 @@
                                 </div>
                                 <div class="modal-body ">
                                     <span class="icon-check-square-o " style="font-size: 20px; color: #FD7E14 "></span>
-                                    <span>Requisito 1 Prestamo Comercial</span>
+                                    <span>Requisito 1 Préstamo Comercial</span>
                                     <br/>
 
                                     <span class="icon-check-square-o " style="font-size: 20px; color: #FD7E14 "></span>
-                                    <span>Requisito 2 Prestamo Comercial</span>
+                                    <span>Requisito 2 Préstamo Comercial</span>
                                     <br/>
 
                                     <span class="icon-check-square-o " style="font-size: 20px; color: #FD7E14 "></span>
-                                    <span>Requisito 3 Prestamo Comercial</span>
+                                    <span>Requisito 3 Préstamo Comercial</span>
                                     <br/>
 
                                     <span class="icon-check-square-o " style="font-size: 20px; color: #FD7E14 "></span>
-                                    <span>Requisito 4 Prestamo Comercial</span>
+                                    <span>Requisito 4 Préstamo Comercial</span>
                                     <br>
 
                                     <span class="icon-check-square-o " style="font-size: 20px; color: #FD7E14 "></span>
-                                    <span>Requisito 5 Prestamo Comercial</span>
+                                    <span>Requisito 5 Préstamo Comercial</span>
                                     <br/>
 
                                     <span class="icon-check-square-o " style="font-size: 20px; color: #FD7E14 "></span>
-                                    <span>Requisito 6 Prestamo Comercial</span>
+                                    <span>Requisito 6 Préstamo Comercial</span>
                                     <br/>
 
                                     <span class="icon-check-square-o " style="font-size: 20px; color: #FD7E14 "></span>
-                                    <span>Requisito 7 Prestamo Comercial</span>
+                                    <span>Requisito 7 Préstamo Comercial</span>
                                     <br/>
 
                                     <span class="icon-check-square-o " style="font-size: 20px; color: #FD7E14 "></span>
@@ -472,35 +476,35 @@
                                 </div>
                                 <div class="modal-body ">
                                     <span class="icon-check-square-o " style="font-size: 20px; color: #FD7E14 "></span>
-                                    <span>Requisito 1 Prestamo con garantía</span>
+                                    <span>Requisito 1 Préstamo con garantía</span>
                                     <br/>
 
                                     <span class="icon-check-square-o " style="font-size: 20px; color: #FD7E14 "></span>
-                                    <span>Requisito 2 Prestamo con garantía</span>
+                                    <span>Requisito 2 Préstamo con garantía</span>
                                     <br/>
 
                                     <span class="icon-check-square-o " style="font-size: 20px; color: #FD7E14 "></span>
-                                    <span>Requisito 3 Prestamo con garantía</span>
+                                    <span>Requisito 3 Préstamo con garantía</span>
                                     <br/>
 
                                     <span class="icon-check-square-o " style="font-size: 20px; color: #FD7E14 "></span>
-                                    <span>Requisito 4 Prestamo con garantía</span>
+                                    <span>Requisito 4 Préstamo con garantía</span>
                                     <br>
 
                                     <span class="icon-check-square-o " style="font-size: 20px; color: #FD7E14 "></span>
-                                    <span>Requisito 5 Prestamo con garantía</span>
+                                    <span>Requisito 5 Préstamo con garantía</span>
                                     <br/>
 
                                     <span class="icon-check-square-o " style="font-size: 20px; color: #FD7E14 "></span>
-                                    <span>Requisito 6 Prestamo con garantía</span>
+                                    <span>Requisito 6 Préstamo con garantía</span>
                                     <br/>
 
                                     <span class="icon-check-square-o " style="font-size: 20px; color: #FD7E14 "></span>
-                                    <span>Requisito 7 Prestamo con garantía</span>
+                                    <span>Requisito 7 Préstamo con garantía</span>
                                     <br/>
 
                                     <span class="icon-check-square-o " style="font-size: 20px; color: #FD7E14 "></span>
-                                    <span>Requisito 8 Prestamo con garantía</span>
+                                    <span>Requisito 8 Préstamo con garantía</span>
                                 </div>
                                 <div class="modal-footer">
                                     <a href="# " class="btn btn-primary ">Solicitar</a>
@@ -521,7 +525,7 @@
                 <div class="row mb-5 justify-content-center ">
                     <div class="col-md-7 text-center ">
                         <h2 class="section-title mb-3 " data-aos="fade-up" data-aos-delay=" ">Pasos para aplicar</h2>
-                        <p class="lead " data-aos="fade-up " data-aos-delay="">Pasos que debes seguir para gestionar tu prestamo</p>
+                        <p class="lead " data-aos="fade-up " data-aos-delay="">Pasos que debes seguir para gestionar tu préstamo</p>
                     </div>
                 </div>
 
@@ -529,7 +533,7 @@
                     <div class="col-lg-6 mb-5 " data-aos="fade-up" data-aos-delay="100">
 
                         <div class="owl-carousel slide-one-item-alt ">
-                            <img src="img/slide_1.jpg " alt="Image " class="img-fluid ">
+                            <img src="img/slide_4.jpg " alt="Image " class="img-fluid ">
                             <img src="img/slide_2.jpg " alt="Image " class="img-fluid ">
                             <img src="img/slide_3.jpg " alt="Image " class="img-fluid ">
                         </div>
@@ -554,7 +558,7 @@
                             </div>
                             <div>
                                 <h2 class="section-title mb-3 ">03. Aprobación y Contacto</h2>
-                                <p>Una vez aprobado su prestasmo, lo contcataremos.</p>
+                                <p>Una vez aprobado su préstamo, lo contactaremos.</p>
 
                                 <p><a href="# " class="btn btn-primary mr-2 mb-2 ">Solicitar</a></p>
                             </div>
@@ -579,7 +583,7 @@
                     <div class="col-md-4 text-center" data-aos="fade-up" data-aos-delay="100">
                         <p class="mb-4 ">
                             <span class="icon-room d-block h2 text-primary" style="font-size: 52px;"></span>
-                            <span class="font-weight-bold">Bavaro, La Altagracia. República Dominicana</span>
+                            <span class="font-weight-bold">Bávaro, La Altagracia. República Dominicana</span>
                         </p>
                     </div>
                     <div class="col-md-4 text-center" data-aos="fade-up" data-aos-delay="200">
@@ -591,7 +595,7 @@
                     <div class="col-md-4 text-center" data-aos="fade-up" data-aos-delay="300">
                         <p class="mb-0 ">
                             <span class="icon-mail_outline d-block h2 text-primary" style="font-size: 52px;"></span>
-                            <span class="font-weight-bold">nisacreditos@gmail.com</span>
+                            <span class="font-weight-bold">info@inversionesnisa.com</span>
                         </p>
                     </div>
                 </div>
@@ -643,7 +647,7 @@
 
 
         <!--  Incio sección feed Instagram Monitores grandes -->
-        <section class="d-none d-xl-block d-lg-block" id="pasos-section ">
+        <section class="d-none d-xl-block d-lg-block">
             <div class="container">
                 <div class="row justify-content-center ">
                     <div class="col-md-7 text-center ">
@@ -657,7 +661,7 @@
         </section>
         <!-- fin sección feed Instagram Monitores grandes -->
         <!--  Incio sección feed Instagram dispostivos moviles -->
-        <section class="d-xl-none d-lg-none" id="pasos-section ">
+        <section class="d-xl-none d-lg-none">
             <div class="container">
                 <div class="row justify-content-center ">
                     <div class="col-md-7 text-center ">
@@ -695,7 +699,7 @@
                     <div class="col-md-4 text-justify ">
                         <h2 class="footer-heading mb-4 text-center">Contacto</h2>
                         <span class="icon-room text-justify" style="font-size: 32px; color: #FD7E14"></span>
-                        <span style="color: #fff;">Bavaro, La Altagracia. República Dominicana</span>
+                        <span style="color: #fff;">Bávaro, La Altagracia. República Dominicana</span>
                         <br>
                         <br>
                         <span class="icon-phone_iphone" style="font-size: 32px; color: #FD7E14"></span>
@@ -741,13 +745,16 @@
         <div class="modal-dialog modal-dialog-centered modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Calcula tu prestamo.</h5>
+                    <img src="img/navlogo2.png" alt="Logo Empresa">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
 
+                    <div class="container text-center mb-4">
+                        <h5 class="modal-title text-primary font-weight-bold" id="exampleModalLabel">Calcula tu Prestamo Personal.</h5>
+                    </div>
                     <div class="container">
                         <form name="formCalPres">
 
@@ -779,7 +786,7 @@
 
                             <div class="form-row">
 
-                                <div class="form-group col-md-6">
+                                <div class="form-group col-md-6" hidden>
                                     <label for="montoPagar">Monto de la Deuda en DOP</label>
                                     <input type="text" class="form-control" id="montoPagar" readonly>
                                 </div>
