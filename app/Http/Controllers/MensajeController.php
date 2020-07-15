@@ -14,12 +14,14 @@ class MensajeController extends Controller
      */
     public function index()
     {
-        $cont = 1;
+        $contn = 1;
+        $contr = 1;
         $mensajes = Mensaje::all();
 
         return view('backend.mensajes.index', [
             'mensajes' => $mensajes,
-            'cont' => $cont
+            'contn' => $contn,
+            'contr' => $contr,
         ]);
     }
 
@@ -41,7 +43,20 @@ class MensajeController extends Controller
      */
     public function store(Request $request)
     {
-        return $this->saveMensaje($request, null);
+        $mensaje = new Mensaje();
+
+        $mensaje->nombre = $request->input('nombre');
+        $mensaje->apellido = $request->input('apellido');
+        $mensaje->email = $request->input('email');
+        $mensaje->asunto = $request->input('asunto');
+        $mensaje->mensaje = $request->input('mensaje');
+        $mensaje->visto = 0;
+
+        $mensaje->save();
+
+        return redirect()->route('index');
+
+
     }
 
     /**
@@ -52,7 +67,9 @@ class MensajeController extends Controller
      */
     public function show($id)
     {
-        //
+        $mensaje = Mensaje::find($id);
+
+        return view('backend.mensajes.show', ['mensaje' => $mensaje]);
     }
 
     /**
