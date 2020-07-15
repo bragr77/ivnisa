@@ -1,8 +1,8 @@
-@extends('layouts.app')
+@extends('backend.panel')
 
 @section('content')
 
-    <div class="container my-3">
+    <div class="container my-2">
 
         <div class="card shadow text-center">
             <h1>Mensajes Nuevos</h1>
