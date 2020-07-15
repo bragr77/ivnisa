@@ -18,10 +18,13 @@ class MensajeController extends Controller
         $contr = 1;
         $mensajes = Mensaje::all();
 
+        $mnuevos = Mensaje::where('visto', '=', 0)->count();
+
         return view('backend.mensajes.index', [
             'mensajes' => $mensajes,
             'contn' => $contn,
             'contr' => $contr,
+            'mnuevos' => $mnuevos
         ]);
     }
 
