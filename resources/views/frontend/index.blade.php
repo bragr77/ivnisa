@@ -37,7 +37,7 @@
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
-    <!-- Inicio loading -->
+    {{--  Inicio loading --}}
     <div id="overlayer">
     </div>
     <div class="loader">
@@ -45,7 +45,7 @@
             <span class="sr-only">Loading...</span>
         </div>
     </div>
-    <!-- Fin loading -->
+    {{--  Fin loading --}}
 
     <div class="site-wrap">
 
@@ -58,14 +58,16 @@
             <div class="site-mobile-menu-body"></div>
         </div>
 
-        <!-- inicio Menu -->
+        {{--  inicio Menu --}}
         <header class="site-navbar js-sticky-header site-navbar-target" role="banner">
 
             <div class="container">
                 <div class="row align-items-center">
 
                     <div class="col-6 col-xl-2">
-                        <img src="img/navlogo2.png" alt="Logo Empresa">
+                        <a href="{{ route('panel') }}">
+                            <img src="img/navlogo2.png" alt="Logo Empresa">
+                        </a>
                     </div>
 
                     <div class="col-12 col-md-10 d-none d-xl-block">
@@ -90,15 +92,15 @@
             </div>
 
         </header>
-        <!-- Fin Menu -->
+        {{--  Fin Menu --}}
 
-        <!-- Inicio Seccion Inicio Slider -->
+        {{--  Inicio Seccion Inicio Slider --}}
         <div class="site-blocks-cover overlay" style="background-image: url(img/hero1.jpg);" data-aos="fade" id="home-section">
 
             <div class="container">
                 <div class="row align-items-center justify-content-center">
 
-                    <!-- Aqui van los sliders -->
+                    {{--  Aqui van los sliders --}}
                     <div class="col-md-10 mt-lg-5 text-center">
                         <div class="single-text owl-carousel">
 
@@ -129,14 +131,14 @@
 
                         </div>
                         <div class="mt-4">
-                            <!-- Button trigger modal -->
+                            {{--  Button trigger modal --}}
                             <button type="button" class="btn btn-success m-2" data-toggle="modal" data-target="#exampleModal">
                                 Calcular Préstamo
                             </button>
                             <button href="#" class="btn btn-primary m-2">Solicitar Préstamo</button>
                         </div>
                     </div>
-                    <!-- Final de Aqui van los sliders -->
+                    {{--  Final de Aqui van los sliders --}}
 
                 </div>
 
@@ -149,9 +151,9 @@
                 </span>
             </a>
         </div>
-        <!-- Fin Seccion Inicio Slider -->
+        {{--  Fin Seccion Inicio Slider --}}
 
-        <!-- Inicio Sección Quienes Somos -->
+        {{--  Inicio Sección Quienes Somos --}}
         <div class="site-section bg-light border-bottom" id="about-section">
             <div class="container">
                 <div class="row mb-5 justify-content-center">
@@ -234,7 +236,7 @@
 
                     </div>
 
-                    <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+                    <div class="col-lg-6 mt-5" data-aos="fade-up" data-aos-delay="">
                         <figure class="circle-bg">
                             <img src="img/n2.jpg" alt="Free Website Template by Free-Template.co" class="img-fluid img-thumbnail shadow-lg">
                         </figure>
@@ -242,9 +244,9 @@
                 </div>
             </div>
         </div>
-        <!-- Fin Sección Quienes Somos -->
+        {{--  Fin Sección Quienes Somos --}}
 
-        <!-- inicio seccion prestamos -->
+        {{--  inicio seccion prestamos --}}
         <section class="site-section border-bottom" id="pricing-section">
             <div class="container">
                 <div class="row mb-2">
@@ -317,7 +319,7 @@
                         </div>
                     </div>
 
-                    <!-- Modal de los requisitos de la cards -->
+                    {{--  Modal de los requisitos de la cards --}}
                     <div class="modal fade" id="card1" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered">
                             <div class="modal-content">
@@ -516,9 +518,9 @@
                 </div>
             </div>
         </section>
-        <!-- fin seccion prestamos -->
+        {{--  fin seccion prestamos --}}
 
-        <!-- inicio sección pasos -->
+        {{--  inicio sección pasos --}}
         <section class="site-section border-bottom " id="pasos-section ">
             <div class="container ">
 
@@ -569,9 +571,9 @@
                 </div>
             </div>
         </section>
-        <!-- fin sección pasos -->
+        {{--  fin sección pasos --}}
 
-        <!-- Inicio Seccion contacto -->
+        {{--  Inicio Seccion contacto --}}
         <section class="site-section bg-light border-bottom " id="contact-section">
             <div class="container ">
                 <div class="row mb-5 ">
@@ -601,36 +603,38 @@
                 </div>
                 <div class="row ">
                     <div class="col-md-12 mb-5 ">
-                        <form action="# " class="p-5 bg-white ">
+                        <form action="{{ route('mensaje.store') }}" method="POST" class="p-5 bg-white ">
 
                             <h2 class="h4 text-black mb-5 ">Envienos un Mensaje</h2>
+
+                            @csrf
 
                             <div class="row form-group ">
                                 <div class="col-md-6 mb-3 mb-md-0 ">
                                     <label class="text-black " for="fname ">Nombre</label>
-                                    <input type="text " id="fname " class="form-control ">
+                                    <input type="text " name="nombre" id="fname " class="form-control ">
                                 </div>
                                 <div class="col-md-6 ">
                                     <label class="text-black " for="lname ">Apellido</label>
-                                    <input type="text " id="lname " class="form-control ">
+                                    <input type="text" name="apellido" id="lname " class="form-control ">
                                 </div>
                             </div>
 
                             <div class="row form-group ">
                                 <div class="col-md-6 mb-3 mb-md-0 ">
                                     <label class="text-black " for="email ">Email</label>
-                                    <input type="email " id="email " class="form-control ">
+                                    <input type="email" name="email" id="email " class="form-control ">
                                 </div>
                                 <div class="col-md-6 mb-3 mb-md-0 ">
                                     <label class="text-black " for="subject ">Asunto</label>
-                                    <input type="subject " id="subject " class="form-control ">
+                                    <input type="subject" name="asunto" id="subject " class="form-control ">
                                 </div>
                             </div>
 
                             <div class="row form-group ">
                                 <div class="col-md-12 ">
                                     <label class="text-black " for="message ">Mensaje</label>
-                                    <textarea name="message " id="message " cols="30 " rows="4" class="form-control " placeholder="Escriba su mensaje aqui... "></textarea>
+                                    <textarea name="mensaje" id="message " cols="30 " rows="4" class="form-control " placeholder="Escriba su mensaje aqui... "></textarea>
                                 </div>
                             </div>
 
@@ -643,10 +647,10 @@
                 </div>
             </div>
         </section>
-        <!-- Fin Seccion contacto -->
+        {{--  Fin Seccion contacto --}}
 
 
-        <!--  Incio sección feed Instagram Monitores grandes -->
+        {{--   Incio sección feed Instagram Monitores grandes --}}
         <section class="d-none d-xl-block d-lg-block">
             <div class="container">
                 <div class="row justify-content-center ">
@@ -656,11 +660,11 @@
                     </div>
                 </div>
             </div>
-            <!-- LightWidget WIDGET -->
+            {{--  LightWidget WIDGET --}}
             <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/0f112bee5f395f3c83b973c51a914820.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
         </section>
-        <!-- fin sección feed Instagram Monitores grandes -->
-        <!--  Incio sección feed Instagram dispostivos moviles -->
+        {{--  fin sección feed Instagram Monitores grandes --}}
+        {{--   Incio sección feed Instagram dispostivos moviles --}}
         <section class="d-xl-none d-lg-none">
             <div class="container">
                 <div class="row justify-content-center ">
@@ -670,12 +674,12 @@
                     </div>
                 </div>
             </div>
-            <!-- LightWidget WIDGET -->
+            {{--  LightWidget WIDGET --}}
             <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/5d41ffd97fcb579f9f3102dd930a1606.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
         </section>
-        <!-- fin sección Instagram dispostivos moviles -->
+        {{--  fin sección Instagram dispostivos moviles --}}
 
-        <!-- Inicio Sección footer -->
+        {{--  Inicio Sección footer --}}
         <footer class="site-footer ">
             <div class="container-fluid px-5">
                 <div class="row">
@@ -725,22 +729,22 @@
                 </div>
             </div>
         </footer>
-        <!-- Fin Sección footer -->
+        {{--  Fin Sección footer --}}
 
-        <!-- .site-wrap -->
+        {{--  .site-wrap --}}
 
-        <!-- Botones flotantes de whatsapp -->
+        {{--  Botones flotantes de whatsapp --}}
         <div class="d-none d-xl-block d-lg-block" id="myButton"></div>
         <div class="btn-whatsapp d-xl-none d-lg-none">
             <a href="https://api.whatsapp.com/send?phone=+18293129274" target="_blank">
                 <img src="img/whatspp.png" alt="logo whatsapp" style="width: 52px; height: 52px;">
             </a>
         </div>
-        <!-- Fin Botones flotantes de whatsapp -->
+        {{--  Fin Botones flotantes de whatsapp --}}
 
     </div>
 
-    <!-- Modal Formulario Calculo de prestamo -->
+    {{--  Modal Formulario Calculo de prestamo --}}
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-lg">
             <div class="modal-content">
@@ -803,7 +807,7 @@
 
                             </div>
 
-                            <!-- <button type="submit" class="btn btn-primary">Sign in</button> -->
+                            {{--  <button type="submit" class="btn btn-primary">Sign in</button> --}}
                         </form>
                     </div>
                 </div>
