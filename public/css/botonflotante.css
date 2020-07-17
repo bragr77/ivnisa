@@ -1,0 +1,12 @@
+.btn-whatsapp {
+    display: block;
+    color: #000;
+    position: fixed;
+    left: 15px;
+    /* right o left para determinar la ubicacion */
+    bottom: 0px;
+    border-radius: 50%;
+    line-height: 80px;
+    text-align: center;
+    z-index: 0;
+}

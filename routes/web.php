@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('frontend.index');
 })->name('index');
 
+Route::get('/msjenviado', function () {
+    return view('frontend.menviado');
+})->name('msjenviado');
+
 Auth::routes();
 
 Route::get('/panel', 'HomeController@index')->name('panel');

@@ -52,6 +52,7 @@ class MensajeController extends Controller
         $datosemail = [
             'nombre' => $request->input('nombre'),
             'apellido' => $request->input('apellido'),
+            'telefono' => $request->input('telefono'),
             'email' => $request->input('email'),
             'asunto' => $request->input('asunto'),
             'mensaje' => $request->input('mensaje'),
@@ -67,6 +68,7 @@ class MensajeController extends Controller
 
         $mensaje->nombre = $request->input('nombre');
         $mensaje->apellido = $request->input('apellido');
+        $mensaje->telefono = $request->input('telefono');
         $mensaje->email = $request->input('email');
         $mensaje->asunto = $request->input('asunto');
         $mensaje->mensaje = $request->input('mensaje');
@@ -74,7 +76,7 @@ class MensajeController extends Controller
 
         $mensaje->save();
 
-       return redirect()->route('index');
+       return redirect()->route('msjenviado');
     }
 
     /**
@@ -126,25 +128,5 @@ class MensajeController extends Controller
         $mensaje->delete();
 
         return redirect()->route('mensaje.index');
-    }
-
-    public function saveMensaje(Request $request, $id){
-
-        if ($id) {
-            $mensaje = Mensaje::find($id);
-        }else{
-            $mensaje = new Mensaje();
-        }
-
-        $mensaje->nombre = $request->input('nombre');
-        $mensaje->apellido = $request->input('apellido');
-        $mensaje->email = $request->input('email');
-        $mensaje->asunto = $request->input('asunto');
-        $mensaje->mensaje = $request->input('mensaje');
-
-        $mensaje->save();
-
-        return redirect()->route('index');
-
     }
 }
