@@ -2,8 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\MensajeRecibido;
+use App\Mail\RespuestaAutomatica;
 use Illuminate\Http\Request;
 use App\Mensaje;
+use Illuminate\Support\Facades\Mail;
 
 class MensajeController extends Controller
 {
@@ -43,6 +46,23 @@ class MensajeController extends Controller
      */
     public function store(Request $request)
     {
+
+        //Enviar por email
+
+        $datosemail = [
+            'nombre' => $request->input('nombre'),
+            'apellido' => $request->input('apellido'),
+            'email' => $request->input('email'),
+            'asunto' => $request->input('asunto'),
+            'mensaje' => $request->input('mensaje'),
+        ];
+
+        Mail::to('bragr77@gmail.com')->send(new MensajeRecibido($datosemail));
+
+        Mail::to($request->input('email'))->send(new RespuestaAutomatica($datosemail));
+
+        //salvar en base de datos
+
         $mensaje = new Mensaje();
 
         $mensaje->nombre = $request->input('nombre');
@@ -54,9 +74,7 @@ class MensajeController extends Controller
 
         $mensaje->save();
 
-        return redirect()->route('index');
-
-
+       return redirect()->route('index');
     }
 
     /**
