@@ -58,31 +58,18 @@
             <div class="site-mobile-menu-body"></div>
         </div>
 
-        <!-- inicio Menu -->
+        <!-- inicio Header -->
         <header class="site-navbar js-sticky-header site-navbar-target" role="banner">
 
             <div class="container">
                 <div class="row align-items-center">
 
-                    <div class="col-6 col-xl-2">
-                        <a href="{{ route('panel') }}">
-                            <img src="img/navlogo2.png" alt="Logo Empresa">
-                        </a>
+                    <div class="col-6" >
+                        <img src="img/navlogo2.png" alt="Logo Empresa">
                     </div>
 
-                    <div class="col-12 col-md-10 d-none d-xl-block">
-                        <nav class="site-navigation position-relative text-right" role="navigation">
-
-                            <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                                <li><a href="#datos-prestamo" class="nav-link">Inicio</a></li>
-                                <li><a href="#datos-personales" class="nav-link">Datos Peronales</a></li>
-                                <li><a href="#pricing-section" class="nav-link">Servicios</a></li>
-                                <li><a href="#contact-section" class="nav-link">Contáctenos</a></li>
-                                <li class="social"><a href="#" class="nav-link"><span class="icon-facebook"></span></a></li>
-                                <li class="social"><a href="#" class="nav-link"><span class="icon-twitter"></span></a></li>
-                                <li class="social"><a href="#" class="nav-link"><span class="icon-instagram"></span></a></li>
-                            </ul>
-                        </nav>
+                    <div class="col-6 d-flex justify-content-center">
+                        <a class="btn btn-outline-primary" href="{{ route('index') }}" class="nav-link">Regresar</a>
                     </div>
 
 
@@ -92,10 +79,10 @@
             </div>
 
         </header>
-        <!-- Fin Menu -->
+        <!-- Fin Header -->
 
 
-    <form action="#" method="get" class="p-4 bg-white card">
+    <form action="{{ route('formulario.store') }}" method="POST" class="p-4 bg-white card">
         @csrf
 
         <div class="container-fluid p-3">
@@ -111,11 +98,11 @@
                <h4 class="text-center">Datos del Préstamo</h4>
                 <hr>
                 <div class="row form-group">
-                    <div class="col-md-6 mb-1 ">
+                    <div class="col-md-6 my-1 ">
                         <label class="text-black " for="cantidad">Cantidad Solicitada en DOP:</label>
                         <input type="number" name="cantidad" id="cantidad " class="form-control" required>
                     </div>
-                    <div class="form-group col-md-6 mb-1">
+                    <div class="form-group col-md-6 my-1">
                         <label for="cCuotas">Nro. de Cuotas:</label>
                         <select name="cuotas" id="cuotas" class="form-control" required>
                             <option selected disabled value="0">Seleccionar...</option>
@@ -135,14 +122,25 @@
                         </select>
                     </div>
                 </div>
+
                 <div class="row d-flex justify-content-center">
-                    <div class="btn-group">
-                        <a class="btn btn-danger" href="{{ url('/') }}">Salir a la página de inicio</a>
-                        <a class="btn btn-info" href="#datos-personales">Continuar a los Datos Personales</a>
+                    <div class="btn-group d-none d-xl-block d-lg-block">
+                        <a class="btn btn-outline-danger" href="{{ url('/') }}">
+                            <span class="icon-skip_previous font-weight-bold d-flex align-items-center d-flex justify-content-center" style="font-size: 23px">
+                            </span>
+                            Salir a la página de inicio
+                        </a>
+                        <a class="btn btn-outline-info" href="#datos-personales">
+                            <span class="icon-skip_next font-weight-bold d-flex align-items-center d-flex justify-content-center" style="font-size: 23px">
+                                </span>Continuar a Datos Personales
+                            </a>
+                    </div>
+                    <div class="d-none d-xl-none d-lg-none d-md-block">
+                        <a class="icon-skip_previous btn btn-outline-danger" href="{{ url('/') }}"></a>
+                        <a class="icon-skip_next font-weight-bold btn btn-outline-info" href="#datos-personales"></span></a>
                     </div>
                 </div>
         </div>
-
         <!-- Fin Sección datos del prestamo -->
 
         <!-- Inicio Sección Datos personales -->
@@ -176,7 +174,7 @@
                         <option value="Viudo(a)">Viudo(a)</option>
                     </select>
                 </div>
-                <div class="col-md-4mb-1">
+                <div class="col-md-4 mb-1">
                     <label class="text-black " for="celular">Celular:</label>
                     <input type="text " name="celular" id="celular " class="form-control" required>
                 </div>
@@ -202,7 +200,7 @@
                     <label class="text-black " for="direccion">Dirección:</label>
                     <input type="text" name="direccion" id="direccion " class="form-control" required>
                 </div>
-                <div class="col-md-6mb-1">
+                <div class="col-md-6 mb-1">
                     <label class="text-black " for="ptoerefe">Punto de Referencia:</label>
                     <input type="text" name="ptorefe" id="ptorefe " class="form-control" required>
                 </div>
@@ -218,12 +216,26 @@
                     <input type="text" name="tipovivienda" id="tipovivienda " class="form-control" required>
                 </div>
             </div>
-            <div class="mt-3 row d-flex justify-content-center">
-                <div class="btn-group">
-                    <a class="btn btn-danger" href="#datos-prestamo">Regresar a los Datos del Prestamo</a>
-                    <a class="btn btn-info" href="#datos-laborales">Continuar a los Datos Laborales</a>
+
+            <div class="row d-flex justify-content-center">
+                <div class="btn-group d-none d-xl-block d-lg-block">
+                    <a class="btn btn-outline-danger" href="#datos-prestamo">
+                        <span class="icon-skip_previous font-weight-bold d-flex align-items-center d-flex justify-content-center" style="font-size: 23px">
+                        </span>
+                        Regresar a Datos del Prestamo
+                    </a>
+                    <a class="btn btn-outline-info" href="#datos-laborales">
+                        <span class="icon-skip_next font-weight-bold d-flex align-items-center d-flex justify-content-center" style="font-size: 23px">
+                        </span>
+                        Continuar a Datos Laborales
+                    </a>
+                </div>
+                <div class="d-none d-xl-none d-lg-none d-md-block">
+                    <a class="icon-skip_previous btn btn-outline-danger" href="#datos-prestamo"></a>
+                    <a class="icon-skip_next font-weight-bold btn btn-outline-info" href="#datos-laborales"></span></a>
                 </div>
             </div>
+
         </div>
         <!-- Fin Sección datos personales -->
 
@@ -280,12 +292,25 @@
                 </div>
             </div>
 
-            <div class="mt-4 row d-flex justify-content-center">
-                <div class="btn-group">
-                    <a class="btn btn-danger" href="#datos-personales">Regresar a los Datos del Personales</a>
-                    <a class="btn btn-info" href="#referencias-personales">Continuar a las Referencias Personales</a>
+            <div class="row d-flex justify-content-center">
+                <div class="btn-group d-none d-xl-block d-lg-block">
+                    <a class="btn btn-outline-danger" href="#datos-personales">
+                        <span class="icon-skip_previous font-weight-bold d-flex align-items-center d-flex justify-content-center" style="font-size: 23px">
+                        </span>
+                        Regresar a Datos Personales
+                    </a>
+                    <a class="btn btn-outline-info" href="#referencias-personales">
+                        <span class="icon-skip_next font-weight-bold d-flex align-items-center d-flex justify-content-center" style="font-size: 23px">
+                        </span>
+                        Continuar a Referencias Personales
+                    </a>
+                </div>
+                <div class="d-none d-xl-none d-lg-none d-md-block">
+                    <a class="icon-skip_previous btn btn-outline-danger" href="#datos-prestamo"></a>
+                    <a class="icon-skip_next font-weight-bold btn btn-outline-info" href="#datos-laborales"></span></a>
                 </div>
             </div>
+
         </div>
         <!-- Fin Sección datos laborales -->
 
@@ -342,12 +367,26 @@
                 </div>
             </div>
 
-            <div class="mt-4 row d-flex justify-content-center">
-                <div class="btn-group">
-                    <a class="btn btn-danger" href="#datos-laborales">Regresar a los Datos Laborales</a>
-                    <a class="btn btn-info" href="#informacion-bancaria">Continuar a Información Bancaria </a>
+            <div class="row d-flex justify-content-center">
+                <div class="btn-group d-none d-xl-block d-lg-block">
+                    <a class="btn btn-outline-danger" href="#datos-laborales">
+                        <span class="icon-skip_previous font-weight-bold d-flex align-items-center d-flex justify-content-center" style="font-size: 23px">
+                        </span>
+                        Regresar a Datos Laborales
+                    </a>
+                    <a class="btn btn-outline-info" href="#informacion-bancaria">
+                        <span class="icon-skip_next font-weight-bold d-flex align-items-center d-flex justify-content-center" style="font-size: 23px">
+                        </span>
+                        Continuar a Información Bancaria
+                    </a>
+                </div>
+                <div class="d-none d-xl-none d-lg-none d-md-block">
+                    <a class="icon-skip_previous btn btn-outline-danger" href="#datos-laborales"></a>
+                    <a class="icon-skip_next font-weight-bold btn btn-outline-info" href="#informacion-bancaria"></span></a>
                 </div>
             </div>
+
+
 
         </div>
         <!-- Fin Sección Referencia personales -->
@@ -359,7 +398,7 @@
             <hr>
 
             <div class="row form-group">
-                <div class="col-md-9 mb-1">
+                <div class="col-md-6 mb-1">
                     <label class="text-black " for="banconomina">¿Vía que Banco le pagan?</label>
                     <input type="text " name="banconomina" id="banconomina " class="form-control" required>
                 </div>
@@ -376,7 +415,7 @@
                     <label class="text-black " for="titular">Nombre del Titular:</label>
                     <input type="text " name="titular" id="titular " class="form-control" required>
                 </div>
-                <div class="col-md-8 mb-1">
+                <div class="col-md-6 mb-1">
                     <label class="text-black " for="bancocuenta">Nombre del Banco:</label>
                     <input type="text " name="bancocuenta" id="bancocuenta " class="form-control" required>
                 </div>
@@ -384,27 +423,37 @@
             <hr>
 
             <div class="row form-group">
-                <div class="col-md-10 mb-1">
+                <div class="col-md-6 mb-1">
                     <label class="text-black " for="referido">Referido Por:</label>
                     <input type="text " name="referido" id="referido " class="form-control" required>
                 </div>
             </div>
-            <div class="mt-4 row d-flex justify-content-center">
-                <div class="btn-group">
-                    <a class="btn btn-danger" href="#referencias-personales">Regresar a Referencias Personales</a>
-                    <button type="submit " value="Enviar " class="btn btn-primary">Enviar Formulario</button>
+
+            <div class="row d-flex justify-content-center">
+                <div class="btn-group d-none d-xl-block d-lg-block">
+                    <a class="btn btn-outline-danger" href="#referencias-personales">
+                        <span class="icon-skip_previous font-weight-bold d-flex align-items-center d-flex justify-content-center" style="font-size: 23px">
+                        </span>
+                        Regresar a Referencias Personales
+                    </a>
+                    <button type="submit " value="Enviar " class="btn btn-primary">
+                        <span class="icon-skip_next font-weight-bold d-flex align-items-center d-flex justify-content-center" style="font-size: 23px">
+                        </span>
+                        Enviar Formulario
+                    </button>
+                </div>
+                <div class="d-xl-none d-lg-none">
+                    <button type="submit " value="Enviar " class="btn btn-primary">
+                        Enviar Formulario
+                    </button>
                 </div>
             </div>
         </div>
         <!-- Fin Sección Información Bancaria -->
 
         </div>
+
     </form>
-
-
-
-
-
 
         <!-- Inicio Sección footer -->
         <footer class="site-footer ">

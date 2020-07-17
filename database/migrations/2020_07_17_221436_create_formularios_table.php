@@ -56,6 +56,8 @@ class CreateFormulariosTable extends Migration
             $table->string('bancocuenta');
             $table->string('referido');
 
+            $table->integer('visto');
+
             $table->timestamps();
         });
     }

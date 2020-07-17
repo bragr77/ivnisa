@@ -22,9 +22,6 @@ class MensajeController extends Controller
 
         $mensajes = Mensaje::all();
 
-
-        //$mensajes = Mensaje::paginate(2);
-
         return view('backend.mensajes.index', [
             'mensajes' => $mensajes,
             'contn' => $contn,

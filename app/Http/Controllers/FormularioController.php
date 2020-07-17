@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Formulario;
 use Illuminate\Http\Request;
 
 class FormularioController extends Controller
@@ -34,7 +35,59 @@ class FormularioController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        //return $request;
+
+        $formulario = new Formulario();
+
+        $formulario->cantidad = $request->input('cantidad');
+        $formulario->cuotas = $request->input('cuotas');
+
+        $formulario->nombre = $request->input('nombre');
+        $formulario->apellido = $request->input('apellido');
+        $formulario->cedula = $request->input('cedula');
+        $formulario->edocivil = $request->input('edocivil');
+        $formulario->celular = $request->input('celular');
+        $formulario->telefono = $request->input('telefono');
+        $formulario->email = $request->input('email');
+        $formulario->nrohijos = $request->input('nrohijos');
+        $formulario->direccion = $request->input('direccion');
+        $formulario->ptorefe = $request->input('ptorefe');
+        $formulario->tiemporesidencia = $request->input('tiemporesidencia');
+        $formulario->tipovivienda = $request->input('tipovivienda');
+
+        $formulario->slaboral = $request->input('slaboral');
+        $formulario->empresa = $request->input('empresa');
+        $formulario->tlaborando = $request->input('tlaborando');
+        $formulario->cargo = $request->input('cargo');
+        $formulario->sueldo = $request->input('sueldo');
+        $formulario->jinmediato = $request->input('jinmediato');
+        $formulario->telefonojefe = $request->input('telefonojefe');
+        $formulario->otrosingresos = $request->input('otrosingresos');
+
+        $formulario->nref1 = $request->input('nref1');
+        $formulario->teleref1 = $request->input('teleref1');
+        $formulario->pref1 = $request->input('pref1');
+        $formulario->dirref1 = $request->input('dirref1');
+        $formulario->nref2 = $request->input('nref2');
+        $formulario->teleref2 = $request->input('teleref2');
+        $formulario->pref2 = $request->input('pref2');
+        $formulario->dirref2 = $request->input('dirref2');
+
+        $formulario->banconomina = $request->input('banconomina');
+        $formulario->nrocuenta = $request->input('nrocuenta');
+        $formulario->titular = $request->input('titular');
+        $formulario->bancocuenta = $request->input('bancocuenta');
+        $formulario->referido = $request->input('referido');
+
+        $formulario->visto = 0;
+
+        $formulario->save();
+
+        return 'Formulario Enviado';
+
+
+
+
     }
 
     /**

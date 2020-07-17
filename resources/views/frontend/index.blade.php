@@ -135,7 +135,7 @@
                             <button type="button" class="btn btn-success m-2" data-toggle="modal" data-target="#exampleModal">
                                 Calcular Préstamo
                             </button>
-                            <button href="#" class="btn btn-primary m-2">Solicitar Préstamo</button>
+                            <a href="{{ route('solicitud') }}" class="btn btn-primary m-2">Solicitar Préstamo</a>
                         </div>
                     </div>
                     <!-- Final de Aqui van los sliders -->
@@ -268,7 +268,7 @@
                                 <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#card1">
                                     Requisitos
                                 </button>
-                                <a href="# " class="btn btn-primary btn-sm ">Solicitar</a>
+                                <a href="{{ route('solicitud') }}" class="btn btn-primary btn-sm ">Solicitar</a>
                             </div>
                         </div>
                     </div>
@@ -284,7 +284,7 @@
                                 <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#card2">
                                     Requisitos
                                 </button>
-                                <a href="# " class="btn btn-primary btn-sm ">Solicitar</a>
+                                <a href="{{ route('solicitud') }}" class="btn btn-primary btn-sm ">Solicitar</a>
                             </div>
                         </div>
                     </div>
@@ -300,7 +300,7 @@
                                 <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#card3">
                                     Requisitos
                                 </button>
-                                <a href="# " class="btn btn-primary btn-sm ">Solicitar</a>
+                                <a href="{{ route('solicitud') }}" class="btn btn-primary btn-sm ">Solicitar</a>
                             </div>
                         </div>
                     </div>
@@ -313,7 +313,7 @@
                                 <p class="card-text text-justify">Préstamo destinado para la adquisición del vehículo de tus sueños, a tasas muy atractivas.</p>
                             </div>
                             <div class="card-footer btn-group ">
-                                <a href="# " class="btn btn-primary btn-sm ">Solicitar</a>
+                                <a href="{{ route('solicitud') }}" class="btn btn-primary btn-sm ">Solicitar</a>
                             </div>
                         </div>
                     </div>
@@ -326,7 +326,7 @@
                                 <p class="card-text text-justify">Préstamo destinado para la adquisición de la casa de tus sueños o cualquier inmueble a tasas muy atractivas.</p>
                             </div>
                             <div class="card-footer btn-group ">
-                                <a href="# " class="btn btn-primary btn-sm ">Solicitar</a>
+                                <a href="{{ route('solicitud') }}" class="btn btn-primary btn-sm ">Solicitar</a>
                             </div>
                         </div>
                     </div>
@@ -339,7 +339,7 @@
                                 <p class="card-text text-justify">Agrupamos tus deudas en una sola, tasa competitiva, excelentes condiciones, recupera el control de tus finanzas.</p>
                             </div>
                             <div class="card-footer btn-group ">
-                                <a href="# " class="btn btn-primary btn-sm ">Solicitar</a>
+                                <a href="{{ route('solicitud') }}" class="btn btn-primary btn-sm ">Solicitar</a>
                             </div>
                         </div>
                     </div>
@@ -521,18 +521,18 @@
                                 <h2 class="section-title mb-3 ">1. Calcula tu préstamo.</h2>
                                 <p>Elige el monto de tu préstamo y el plazo que requieras para pagarlo. Acomoda la cuota a tu conveniencia.</p>
 
-                                <p><a href="# " class="btn btn-primary mr-2 mb-2 ">Solicitar</a></p>
+                                <p><a href="{{ route('solicitud') }}" class="btn btn-primary mr-2 mb-2 ">Solicitar</a></p>
                             </div>
                             <div>
                                 <h2 class="section-title mb-3 ">2. Completa el formulario online.</h2>
                                 <p>Rellena el formulario de solicitud, fácil y sencillo, solo te llevará un par de minutos.</p>
-                                <p><a href="# " class="btn btn-primary mr-2 mb-2 ">Solicitar</a></p>
+                                <p><a href="{{ route('solicitud') }}" class="btn btn-primary mr-2 mb-2 ">Solicitar</a></p>
                             </div>
                             <div>
                                 <h2 class="section-title mb-3 ">3. Aprobación y contacto.</h2>
                                 <p>Nuestro equipo analizará su solicitud y de ser aprobado su préstamo, le estaremos contactando en un plazo de 24 horas.</p>
 
-                                <p><a href="# " class="btn btn-primary mr-2 mb-2 ">Solicitar</a></p>
+                                <p><a href="{{ route('solicitud') }}" class="btn btn-primary mr-2 mb-2 ">Solicitar</a></p>
                             </div>
 
                         </div>
