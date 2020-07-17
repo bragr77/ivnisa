@@ -69,7 +69,7 @@
                     </div>
 
                     <div class="col-6 d-flex justify-content-center">
-                        <a class="btn btn-outline-primary" href="{{ route('index') }}" class="nav-link">Regresar</a>
+                        <a class="btn btn-outline-primary" href="javascript:history.back(-1);" class="nav-link">Regresar</a>
                     </div>
 
 
