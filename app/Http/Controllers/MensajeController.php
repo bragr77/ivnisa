@@ -19,7 +19,11 @@ class MensajeController extends Controller
     {
         $contn = 1;
         $contr = 1;
+
         $mensajes = Mensaje::all();
+
+
+        //$mensajes = Mensaje::paginate(2);
 
         return view('backend.mensajes.index', [
             'mensajes' => $mensajes,
@@ -49,7 +53,7 @@ class MensajeController extends Controller
 
         //Enviar por email
 
-        $datosemail = [
+       /*  $datosemail = [
             'nombre' => $request->input('nombre'),
             'apellido' => $request->input('apellido'),
             'telefono' => $request->input('telefono'),
@@ -60,7 +64,7 @@ class MensajeController extends Controller
 
         Mail::to('bragr77@gmail.com')->send(new MensajeRecibido($datosemail));
 
-        Mail::to($request->input('email'))->send(new RespuestaAutomatica($datosemail));
+        Mail::to($request->input('email'))->send(new RespuestaAutomatica($datosemail)); */
 
         //salvar en base de datos
 
@@ -88,6 +92,10 @@ class MensajeController extends Controller
     public function show($id)
     {
         $mensaje = Mensaje::find($id);
+
+        $mensaje->visto = 1;
+
+        $mensaje->save();
 
         return view('backend.mensajes.show', ['mensaje' => $mensaje]);
     }
