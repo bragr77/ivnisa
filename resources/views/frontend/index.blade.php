@@ -6,30 +6,30 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <link rel="icon" type="image/png" href="{{  asset('img/favicon.png') }}"/>
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="{{  asset('fonts/icomoon/style.css') }}">
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/jquery-ui.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="{{  asset('css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{  asset('css/jquery-ui.css') }}">
+    <link rel="stylesheet" href="{{  asset('css/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{  asset('css/owl.theme.default.min.css') }}">
+    <link rel="stylesheet" href="{{  asset('css/owl.theme.default.min.css') }}">
 
-    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="{{  asset('css/jquery.fancybox.min.css') }}">
 
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="{{  asset('css/bootstrap-datepicker.css') }}">
 
-    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="{{  asset('fonts/flaticon/font/flaticon.css') }}">
 
-    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="{{  asset('css/aos.css') }}">
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="{{  asset('css/style.css') }}">
 
-    <link rel="stylesheet" href="css/floating-wpp.min.css">
+    <link rel="stylesheet" href="{{  asset('css/floating-wpp.min.css') }}">
 
-    <link href="css/botonflotante.css" rel="stylesheet">
+    <link href="{{  asset('css/botonflotante.css" rel="stylesheet') }}">
 
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/coliff/bootstrap-rfs/bootstrap-rfs.css"> -->
 
@@ -793,22 +793,22 @@
     </div>
 
 
-    <script src="js/calprestamo.min.js"></script>
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/floating-wpp.min.js"></script>
-    <script src="js/jquery-ui.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.countdown.min.js"></script>
-    <script src="js/jquery.easing.1.3.js"></script>
-    <script src="js/aos.js"></script>
-    <script src="js/jquery.fancybox.min.js"></script>
-    <script src="js/jquery.sticky.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="{{  asset('js/calprestamo.min.js') }}') }}"></script>
+    <script src="{{  asset('js/jquery-3.3.1.min.js') }}"></script>
+    <script src="{{  asset('js/floating-wpp.min.js') }}"></script>
+    <script src="{{  asset('js/jquery-ui.js') }}"></script>
+    <script src="{{  asset('js/bootstrap.min.js') }}"></script>
+    <script src="{{  asset('js/popper.min.js') }}"></script>
+    <script src="{{  asset('js/owl.carousel.min.js') }}"></script>
+    <script src="{{  asset('js/jquery.countdown.min.js') }}"></script>
+    <script src="{{  asset('js/jquery.easing.1.3.js') }}"></script>
+    <script src="{{  asset('js/aos.js') }}"></script>
+    <script src="{{  asset('js/jquery.fancybox.min.js') }}"></script>
+    <script src="{{  asset('js/jquery.sticky.js') }}"></script>
+    <script src="{{  asset('js/isotope.pkgd.min.js') }}"></script>
 
 
-    <script src="js/main.js"></script>
+    <script src="{{  asset('js/main.js') }}"></script>
 
 
 

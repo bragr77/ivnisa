@@ -21,6 +21,10 @@ Route::get('/msjenviado', function () {
     return view('frontend.menviado');
 })->name('msjenviado');
 
+Route::get('/solicitud', function () {
+    return view('frontend.formsolicitud');
+})->name('solicitud');
+
 Auth::routes();
 
 Route::get('/panel', 'HomeController@index')->name('panel');
