@@ -124,10 +124,10 @@
                                 <h1 class="text-uppercase" data-aos="fade-up">Consolidación de deudas</h1>
                                 <p class="d-none d-xl-block d-lg-block mb-5 desc font-weight-bold" data-aos="fade-up" data-aos-delay="100">Agrupamos todas tus deudas en un solo préstamo con tasa competitiva y excelentes condiciones para que recuperes el control de tus finanzas.</p>
                             </div>
-                            <div class="slide">
+                            {{--  <div class="slide">
                                 <h1 class="text-uppercase" data-aos="fade-up">Reparación de Historial Crediticio</h1>
                                 <!-- <p class="mb-5 desc font-weight-bold" data-aos="fade-up" data-aos-delay="100">Aprobación inmediata a las mejores tasas, solicitud online y presencial.</p> -->
-                            </div>
+                            </div>  --}}
 
                         </div>
                         <div class="mt-4">
@@ -384,7 +384,7 @@
 
                                 </div>
                                 <div class="modal-footer">
-                                    <a href="# " class="btn btn-primary ">Solicitar</a>
+                                    <a href="{{ route('solicitud') }}" class="btn btn-primary ">Solicitar</a>
                                     <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
                                 </div>
                             </div>
@@ -429,7 +429,7 @@
                                     <span>Garante solidario.</span>
                                 </div>
                                 <div class="modal-footer">
-                                    <a href="# " class="btn btn-primary ">Solicitar</a>
+                                    <a href="{{ route('solicitud') }}" class="btn btn-primary ">Solicitar</a>
                                     <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
                                 </div>
                             </div>
@@ -478,7 +478,7 @@
                                     <span>Certificación de impuesto de propiedad inmobiliaria (IPI) al día.</span>
                                 </div>
                                 <div class="modal-footer">
-                                    <a href="# " class="btn btn-primary ">Solicitar</a>
+                                    <a href="{{ route('solicitud') }}" class="btn btn-primary ">Solicitar</a>
                                     <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
                                 </div>
                             </div>
@@ -622,7 +622,6 @@
             </div>
         </section>
         <!-- Fin Seccion contacto -->
-
 
         <!--  Incio sección feed Instagram Monitores grandes -->
         <section class="d-none d-xl-block d-lg-block">
