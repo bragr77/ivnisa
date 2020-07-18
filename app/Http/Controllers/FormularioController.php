@@ -3,7 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\Formulario;
+use App\Mail\RespuestaAutomaticaSolicitud;
+use App\Mail\SolcitudRecibida;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class FormularioController extends Controller
 {
@@ -41,7 +44,22 @@ class FormularioController extends Controller
      */
     public function store(Request $request)
     {
-        //return $request;
+
+          //Enviar por email
+
+        $datosemail = [
+            'nombre' => $request->input('nombre'),
+            'apellido' => $request->input('apellido'),
+            'telefono' => $request->input('celular'),
+            'email' => $request->input('email'),
+        ];
+
+
+        Mail::to('bragr77@gmail.com')->send(new SolcitudRecibida($datosemail));
+
+        Mail::to($request->input('email'))->send(new RespuestaAutomaticaSolicitud($datosemail));
+
+        //salvar en base de datos
 
         $formulario = new Formulario();
 
@@ -89,7 +107,7 @@ class FormularioController extends Controller
 
         $formulario->save();
 
-        return 'Formulario Enviado';
+        return redirect()->route('msjenviado');
 
 
 
@@ -106,9 +124,9 @@ class FormularioController extends Controller
     {
         $formulario = Formulario::find($id);
 
-        /* $formulario->visto = 1;
+        $formulario->visto = 1;
 
-        $formulario->save(); */
+        $formulario->save();
 
         return view('backend.formularios.show', ['formulario' => $formulario]);
     }
@@ -144,6 +162,10 @@ class FormularioController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $formulario = Formulario::find($id);
+
+        $formulario->delete();
+
+        return redirect()->route('formulario.index');
     }
 }

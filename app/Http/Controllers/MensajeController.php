@@ -48,7 +48,7 @@ class MensajeController extends Controller
 
         //Enviar por email
 
-       /*  $datosemail = [
+       $datosemail = [
             'nombre' => $request->input('nombre'),
             'apellido' => $request->input('apellido'),
             'telefono' => $request->input('telefono'),
@@ -59,7 +59,7 @@ class MensajeController extends Controller
 
         Mail::to('bragr77@gmail.com')->send(new MensajeRecibido($datosemail));
 
-        Mail::to($request->input('email'))->send(new RespuestaAutomatica($datosemail)); */
+        Mail::to($request->input('email'))->send(new RespuestaAutomatica($datosemail));
 
         //salvar en base de datos
 

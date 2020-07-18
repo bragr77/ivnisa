@@ -3,7 +3,7 @@
 @section('content')
 
 <div class="container my-2">
-    <a href="javascript:history.back(-1);" class="btn btn-danger">Regresar</a>
+    <a href="{{ route('formulario.index') }}" class="btn btn-danger">Regresar</a>
 </div>
 
 <div class="container">
@@ -208,7 +208,7 @@
 </div>
 
 <div class="container my-2">
-    <a href="javascript:history.back(-1);" class="btn btn-danger">Regresar</a>
+    <a href="{{ route('formulario.index') }}" class="btn btn-danger">Regresar</a>
 </div>
 
 
