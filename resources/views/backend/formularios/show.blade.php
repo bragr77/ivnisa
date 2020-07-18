@@ -2,7 +2,12 @@
 
 @section('content')
 
+<div class="container my-2">
+    <a href="javascript:history.back(-1);" class="btn btn-danger">Regresar</a>
+</div>
+
 <div class="container">
+
     <div class="card text-center">
 
         <div class="card-header">
@@ -200,6 +205,10 @@
 
 
     </div>
+</div>
+
+<div class="container my-2">
+    <a href="javascript:history.back(-1);" class="btn btn-danger">Regresar</a>
 </div>
 
 
