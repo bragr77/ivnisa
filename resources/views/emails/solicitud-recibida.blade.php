@@ -5,7 +5,7 @@
 </head>
 <body>
 
-    <h3>Ha sido creada una solcitud de prestamo desde el portal www.inversionesnisa.com</h3>
+    <h3>Ha sido creada una solicitud de préstamo desde el portal www.inversionesnisa.com</h3>
 
 
     <h4>Por el Sr(a). {{ $datosemail['nombre'] }} {{ $datosemail['apellido'] }}</h4>
