@@ -15,10 +15,10 @@ class FormularioController extends Controller
     public function index()
     {
         $cont = 1;
-        $formularios = Formulario::all();
+        $formularios = Formulario::orderBy('created_at', 'desc')->paginate(8);
 
         return view('backend.formularios.index', [
-            'mensajes' => $formularios,
+            'formularios' => $formularios,
             'cont' => $cont,
         ]);
     }

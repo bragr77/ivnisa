@@ -19,7 +19,7 @@
                             <th>Correo</th>
                             <th>Asunto</th>
                             <th>Mensaje</th>
-                            <th>Enviado el:</th>
+                            <th>Enviado</th>
                             <th>Acciones</th>
                         </tr>
                 </thead>
@@ -63,3 +63,4 @@
 
 
 @endsection
+

@@ -63,6 +63,10 @@
                             <a class="nav-link" href="{{ route('mensaje.index') }}">Mensajes</a>
                         </li>
 
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('formulario.index') }}">Solicitudes</a>
+                        </li>
+
                         <li class="nav-item dropdown">
                             <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                 {{ Auth::user()->name }} <span class="caret"></span>
@@ -94,18 +98,5 @@
             @yield('content')
         </div>
     </div>
-
-    <footer>
-        <div class="fixed-bottom text-center border-top">
-            <div class="mt-2 bg-light text-dark">
-                <p class="copyright ">
-                    <small>
-                        Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos los derechos reservados | Este sitio web fue creado Por: <a href="https://nitidezcreativa.com " target="_blank
-            " >NitidezCreativaRD</a> & <a href="https://rgonzalez.com.ve " target="_blank " >Raúl González</a>
-                    </small>
-                </p>
-            </div>
-        </div>
-    </footer>
 </body>
 </html>
