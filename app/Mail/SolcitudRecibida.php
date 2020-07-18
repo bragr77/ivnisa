@@ -11,7 +11,7 @@ class SolcitudRecibida extends Mailable
 {
     use Queueable, SerializesModels;
 
-    public $subject = 'Fue creada na nueva soliciyud de credito a traves de la pagina inversionesnisa.com';
+    public $subject = 'Fue creada na nueva solicitud de credito a traves de la pagina inversionesnisa.com';
 
     public $datosemail;
 
