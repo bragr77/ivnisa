@@ -27,6 +27,8 @@
 
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
+    <link rel="stylesheet" href="{{ asset('css/tabla.css') }}">
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/coliff/bootstrap-rfs/bootstrap-rfs.css">
 
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -92,5 +94,18 @@
             @yield('content')
         </div>
     </div>
+
+    <footer>
+        <div class="fixed-bottom text-center border-top">
+            <div class="mt-2 bg-light text-dark">
+                <p class="copyright ">
+                    <small>
+                        Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos los derechos reservados | Este sitio web fue creado Por: <a href="https://nitidezcreativa.com " target="_blank
+            " >NitidezCreativaRD</a> & <a href="https://rgonzalez.com.ve " target="_blank " >Raúl González</a>
+                    </small>
+                </p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

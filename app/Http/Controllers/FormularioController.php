@@ -14,7 +14,13 @@ class FormularioController extends Controller
      */
     public function index()
     {
-        //
+        $cont = 1;
+        $formularios = Formulario::all();
+
+        return view('backend.formularios.index', [
+            'mensajes' => $formularios,
+            'cont' => $cont,
+        ]);
     }
 
     /**
@@ -98,7 +104,13 @@ class FormularioController extends Controller
      */
     public function show($id)
     {
-        //
+        $formulario = Formulario::find($id);
+
+        /* $formulario->visto = 1;
+
+        $formulario->save(); */
+
+        return view('backend.formularios.show', ['formulario' => $formulario]);
     }
 
     /**

@@ -582,33 +582,33 @@
                         <div class="row form-group ">
                             <div class="col-md-4 mb-3 mb-md-0 ">
                                 <label class="text-black " for="fname ">Nombre</label>
-                                <input type="text " name="nombre" id="fname " class="form-control ">
+                                <input type="text " name="nombre" id="fname " class="form-control " required>
                             </div>
                             <div class="col-md-4 ">
                                 <label class="text-black " for="lname ">Apellido</label>
-                                <input type="text" name="apellido" id="lname " class="form-control ">
+                                <input type="text" name="apellido" id="lname " class="form-control " required>
                             </div>
                             <div class="col-md-4 ">
                                 <label class="text-black " for="ltelefono ">Teléfono</label>
-                                <input type="text" name="telefono" id="ltelefono " class="form-control ">
+                                <input type="text" name="telefono" id="ltelefono " class="form-control " required>
                             </div>
                         </div>
 
                         <div class="row form-group ">
                             <div class="col-md-6 mb-3 mb-md-0 ">
                                 <label class="text-black " for="email ">Email</label>
-                                <input type="email" name="email" id="email " class="form-control ">
+                                <input type="email" name="email" id="email " class="form-control " required>
                             </div>
                             <div class="col-md-6 mb-3 mb-md-0 ">
                                 <label class="text-black " for="subject ">Asunto</label>
-                                <input type="subject" name="asunto" id="subject " class="form-control ">
+                                <input type="subject" name="asunto" id="subject " class="form-control " required>
                             </div>
                         </div>
 
                         <div class="row form-group ">
                             <div class="col-md-12 ">
                                 <label class="text-black " for="message ">Mensaje</label>
-                                <textarea name="mensaje" id="message " cols="30 " rows="4" class="form-control " placeholder="Escriba su mensaje aqui... "></textarea>
+                                <textarea name="mensaje" id="message " cols="30 " rows="4" class="form-control " minlength="3" required></textarea >
                             </div>
                         </div>
 

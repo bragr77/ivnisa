@@ -17,15 +17,13 @@ class MensajeController extends Controller
      */
     public function index()
     {
-        $contn = 1;
-        $contr = 1;
+        $cont = 1;
 
-        $mensajes = Mensaje::all();
+        $mensajes = Mensaje::orderBy('created_at', 'desc')->paginate(8);
 
         return view('backend.mensajes.index', [
             'mensajes' => $mensajes,
-            'contn' => $contn,
-            'contr' => $contr,
+            'cont' => $cont,
         ]);
     }
 
