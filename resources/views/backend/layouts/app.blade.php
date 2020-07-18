@@ -9,7 +9,7 @@
     <link rel="icon" type="image/png" href="img/favicon.png" />
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="{{ asset('fonts/icomoon/style.css') }}">
 
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/jquery-ui.css') }}">
@@ -29,7 +29,7 @@
 
     <link rel="stylesheet" href="{{ asset('css/tabla.css') }}">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/coliff/bootstrap-rfs/bootstrap-rfs.css">
+    /<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/coliff/bootstrap-rfs/bootstrap-rfs.css">
 
     <script src="{{ asset('js/app.js') }}" defer></script>
 </head>

@@ -6,7 +6,9 @@ use App\Formulario;
 use App\Mail\RespuestaAutomaticaSolicitud;
 use App\Mail\SolcitudRecibida;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Mail;
+use App\Http\Controllers\PDF;
 
 class FormularioController extends Controller
 {
@@ -128,7 +130,12 @@ class FormularioController extends Controller
 
         $formulario->save();
 
-        return view('backend.formularios.show', ['formulario' => $formulario]);
+        $pdf = App::make('dompdf.wrapper');
+        $pdf->loadView('backend.formularios.show' , ['formulario' => $formulario]);
+        return $pdf->download();
+
+
+       //return view('backend.formularios.show', ['formulario' => $formulario]);
     }
 
     /**
