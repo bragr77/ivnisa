@@ -29,9 +29,9 @@
 
     <link rel="stylesheet" href="{{  asset('css/floating-wpp.min.css') }}">
 
-    <link href="{{  asset('css/botonflotante.css" rel="stylesheet') }}">
+    <link href="css/botonflotante.css" rel="stylesheet">
 
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/coliff/bootstrap-rfs/bootstrap-rfs.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/coliff/bootstrap-rfs/bootstrap-rfs.css">
 
 </head>
 
@@ -78,9 +78,9 @@
                                 <li><a href="#about-section" class="nav-link">Nosotros</a></li>
                                 <li><a href="#pricing-section" class="nav-link">Servicios</a></li>
                                 <li><a href="#contact-section" class="nav-link">Contáctenos</a></li>
-                                <li class="social"><a href="#" class="nav-link"><span class="icon-facebook"></span></a></li>
+                                <li class="social"><a href="https://www.facebook.com/inversionesnisa" class="nav-link" target="_blank"><span class="icon-facebook"></span></a></li>
                                 <li class="social"><a href="#" class="nav-link"><span class="icon-twitter"></span></a></li>
-                                <li class="social"><a href="#" class="nav-link"><span class="icon-instagram"></span></a></li>
+                                <li class="social"><a href="https://www.instagram.com/inversionesnisa/" class="nav-link" target="_blank"><span class="icon-instagram"></span></a></li>
                             </ul>
                         </nav>
                     </div>
@@ -135,7 +135,7 @@
                             <button type="button" class="btn btn-success m-2" data-toggle="modal" data-target="#exampleModal">
                                 Calcular Préstamo
                             </button>
-                            <a href="{{ route('solicitud') }}" class="btn btn-primary m-2">Solicitar Préstamo</a>
+                            <a href="https://inversionesnisa.com/proyecto/solicitud" class="btn btn-primary m-2">Solicitar Préstamo</a>
                         </div>
                     </div>
                     <!-- Final de Aqui van los sliders -->
@@ -234,7 +234,7 @@
 
                         <span class="icon-check-square-o" style="font-size: 20px; color: #074C46"></span>
                         <span class="font-weight-bold" style="font-size: 24px;">Confianza</span>
-                        <p class="text-justify">Estamos convencidos de que ser confiables es clave para alcanzar el éxito, nos esforzamos para dar un trato excepcional a quienes confían en nosotros.</p>
+                        <p class="text-justify">Estamos convencidos de que ser confiables es la clave para alcanzar el éxito, nos esforzamos para dar un trato excepcional a quienes confían en nosotros.</p>
 
                     </div>
 
@@ -268,7 +268,7 @@
                                 <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#card1">
                                     Requisitos
                                 </button>
-                                <a href="{{ route('solicitud') }}" class="btn btn-primary btn-sm ">Solicitar</a>
+                                <a href="https://inversionesnisa.com/proyecto/solicitud" class="btn btn-primary btn-sm ">Solicitar</a>
                             </div>
                         </div>
                     </div>
@@ -284,7 +284,7 @@
                                 <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#card2">
                                     Requisitos
                                 </button>
-                                <a href="{{ route('solicitud') }}" class="btn btn-primary btn-sm ">Solicitar</a>
+                                <a href="https://inversionesnisa.com/proyecto/solicitud" class="btn btn-primary btn-sm ">Solicitar</a>
                             </div>
                         </div>
                     </div>
@@ -294,13 +294,13 @@
                             <img src="img/p_inmueble.jpg " class="card-img-top" alt="... ">
                             <div class="card-body text-center ">
                                 <h5 class="card-title text-primary font-weight-bold ">Préstamos <br> Hipotecarios</h5>
-                                <p class="card-text text-justify ">Préstamo exclusivamente para la compra, construcción o remodelación de tu inmueble. </p>
+                                <p class="card-text text-justify ">Préstamo al más bajo interés con la garantía de tu vivienda o inmueble.  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p>
                             </div>
                             <div class="card-footer btn-group ">
                                 <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#card3">
                                     Requisitos
                                 </button>
-                                <a href="{{ route('solicitud') }}" class="btn btn-primary btn-sm ">Solicitar</a>
+                                <a href="https://inversionesnisa.com/proyecto/solicitud" class="btn btn-primary btn-sm ">Solicitar</a>
                             </div>
                         </div>
                     </div>
@@ -310,10 +310,10 @@
                             <img src="img/p_vehiculo.jpg" class="card-img-top" alt="... ">
                             <div class="card-body text-center ">
                                 <h5 class="card-title text-primary font-weight-bold ">Financiamiento de vehículos</h5>
-                                <p class="card-text text-justify">Préstamo destinado para la adquisición del vehículo de tus sueños, a tasas muy atractivas.</p>
+                                <p class="card-text text-justify">Préstamo para adquirir tu vehículo nuevo o usado, mejoramos cualquier tasa que te hayan ofrecido.</p>
                             </div>
                             <div class="card-footer btn-group ">
-                                <a href="{{ route('solicitud') }}" class="btn btn-primary btn-sm ">Solicitar</a>
+                                <a href="https://inversionesnisa.com/proyecto/solicitud" class="btn btn-primary btn-sm ">Solicitar</a>
                             </div>
                         </div>
                     </div>
@@ -323,10 +323,10 @@
                             <img src="img/p_inmueble2.jpg" class="card-img-top" alt="... ">
                             <div class="card-body text-center ">
                                 <h5 class="card-title text-primary font-weight-bold ">Financiamiento de inmuebles</h5>
-                                <p class="card-text text-justify">Préstamo destinado para la adquisición de la casa de tus sueños o cualquier inmueble a tasas muy atractivas.</p>
+                                <p class="card-text text-justify">Préstamo destinado para la adquisición de tu casa, apartamento o cualquier inmueble a tasas muy atractivas.</p>
                             </div>
                             <div class="card-footer btn-group ">
-                                <a href="{{ route('solicitud') }}" class="btn btn-primary btn-sm ">Solicitar</a>
+                                <a href="https://inversionesnisa.com/proyecto/solicitud" class="btn btn-primary btn-sm ">Solicitar</a>
                             </div>
                         </div>
                     </div>
@@ -339,7 +339,7 @@
                                 <p class="card-text text-justify">Agrupamos tus deudas en una sola, tasa competitiva, excelentes condiciones, recupera el control de tus finanzas.</p>
                             </div>
                             <div class="card-footer btn-group ">
-                                <a href="{{ route('solicitud') }}" class="btn btn-primary btn-sm ">Solicitar</a>
+                                <a href="https://inversionesnisa.com/proyecto/solicitud" class="btn btn-primary btn-sm ">Solicitar</a>
                             </div>
                         </div>
                     </div>
@@ -384,7 +384,7 @@
 
                                 </div>
                                 <div class="modal-footer">
-                                    <a href="{{ route('solicitud') }}" class="btn btn-primary ">Solicitar</a>
+                                    <a href="https://inversionesnisa.com/proyecto/solicitud" class="btn btn-primary ">Solicitar</a>
                                     <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
                                 </div>
                             </div>
@@ -429,7 +429,7 @@
                                     <span>Garante solidario.</span>
                                 </div>
                                 <div class="modal-footer">
-                                    <a href="{{ route('solicitud') }}" class="btn btn-primary ">Solicitar</a>
+                                    <a href="https://inversionesnisa.com/proyecto/solicitud" class="btn btn-primary ">Solicitar</a>
                                     <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
                                 </div>
                             </div>
@@ -478,7 +478,7 @@
                                     <span>Certificación de impuesto de propiedad inmobiliaria (IPI) al día.</span>
                                 </div>
                                 <div class="modal-footer">
-                                    <a href="{{ route('solicitud') }}" class="btn btn-primary ">Solicitar</a>
+                                    <a href="https://inversionesnisa.com/proyecto/solicitud" class="btn btn-primary ">Solicitar</a>
                                     <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
                                 </div>
                             </div>
@@ -505,8 +505,8 @@
                     <div class="col-lg-6 mb-5 " data-aos="fade-up" data-aos-delay="100">
 
                         <div class="owl-carousel slide-one-item-alt ">
-                            <img src="img/slide_5.jpg " alt="Image " class="img-fluid img-thumbnail ">
-                            <img src="img/slide_4.jpg " alt="Image " class="img-fluid img-thumbnail ">
+                            <img src="img/slide_1.jpg " alt="Image " class="img-fluid img-thumbnail ">
+                            <img src="img/slide_2.jpg " alt="Image " class="img-fluid img-thumbnail ">
                             <img src="img/slide_3.jpg " alt="Image " class="img-fluid img-thumbnail ">
                         </div>
                         <div class="custom-direction ">
@@ -521,18 +521,18 @@
                                 <h2 class="section-title mb-3 ">1. Calcula tu préstamo.</h2>
                                 <p>Elige el monto de tu préstamo y el plazo que requieras para pagarlo. Acomoda la cuota a tu conveniencia.</p>
 
-                                <p><a href="{{ route('solicitud') }}" class="btn btn-primary mr-2 mb-2 ">Solicitar</a></p>
+                                <p><a href="https://inversionesnisa.com/proyecto/solicitud" class="btn btn-primary mr-2 mb-2 ">Solicitar</a></p>
                             </div>
                             <div>
                                 <h2 class="section-title mb-3 ">2. Completa el formulario online.</h2>
                                 <p>Rellena el formulario de solicitud, fácil y sencillo, solo te llevará un par de minutos.</p>
-                                <p><a href="{{ route('solicitud') }}" class="btn btn-primary mr-2 mb-2 ">Solicitar</a></p>
+                                <p><a href="https://inversionesnisa.com/proyecto/solicitud" class="btn btn-primary mr-2 mb-2 ">Solicitar</a></p>
                             </div>
                             <div>
                                 <h2 class="section-title mb-3 ">3. Aprobación y contacto.</h2>
                                 <p>Nuestro equipo analizará su solicitud y de ser aprobado su préstamo, le estaremos contactando en un plazo de 24 horas.</p>
 
-                                <p><a href="{{ route('solicitud') }}" class="btn btn-primary mr-2 mb-2 ">Solicitar</a></p>
+                                <p><a href="https://inversionesnisa.com/proyecto/solicitud" class="btn btn-primary mr-2 mb-2 ">Solicitar</a></p>
                             </div>
 
                         </div>
@@ -575,7 +575,7 @@
                     <div class="col-md-12 mb-5 ">
                         <form action="{{ route('mensaje.store') }}" method="POST" class="p-5 bg-white ">
 
-                        <h2 class="h4 text-black mb-5 ">Envienos un Mensaje</h2>
+                        <h2 class="h4 text-black mb-5 ">Envíenos un mensaje.</h2>
 
                         @csrf
 
@@ -660,15 +660,17 @@
 
                     <div class="col-md-4 text-center ">
                         <img src="img/footerlogo.png " class="mb-3 " alt="Logo Empresa ">
-                        <p class="text-justify ">Somos una empresa que apoyamos a los dominicanos, ofrecemos soluciones financieras que los ayudan a impulsar sus negocios y a solventar de manera rápida emergencias inesperadas.</p>
+                        <p class="text-justify ">
+                            Somos una empresa de servicios financieros enfocada en ser aliados estratégicos de cada cliente, ofreciéndole una alternativa de financiación fácil y rápida para el logro de sus objetivos o situaciones imprevista que requieren solución rápida.
+                        </p>
                     </div>
 
                     <div class="col-md-4 footer-social text-center ">
                         <h2 class="footer-heading mb-6 ">Redes Sociales</h2>
                         <div class="mt-5">
-                            <a href="# " class="pl-0 pr-3 " style="font-size: 52px; "><span class="icon-facebook "></span></a>
+                            <a href="https://www.facebook.com/inversionesnisa" class="pl-0 pr-3 " style="font-size: 52px;" target="_blank"><span class="icon-facebook "></span></a>
                             <a href="# " class="pl-3 pr-3 " style="font-size: 52px; "><span class="icon-twitter "></span></a>
-                            <a href="# " class="pl-3 pr-3 " style="font-size: 52px; "><span class="icon-instagram "></span></a>
+                            <a href="https://www.instagram.com/inversionesnisa/" class="pl-3 pr-3 " style="font-size: 52px;" target="_blank"><span class="icon-instagram "></span></a>
                         </div>
                     </div>
 
@@ -792,26 +794,29 @@
     </div>
 
 
-    <script src="{{  asset('js/calprestamo.min.js') }}') }}"></script>
-    <script src="{{  asset('js/jquery-3.3.1.min.js') }}"></script>
-    <script src="{{  asset('js/floating-wpp.min.js') }}"></script>
-    <script src="{{  asset('js/jquery-ui.js') }}"></script>
-    <script src="{{  asset('js/bootstrap.min.js') }}"></script>
-    <script src="{{  asset('js/popper.min.js') }}"></script>
-    <script src="{{  asset('js/owl.carousel.min.js') }}"></script>
-    <script src="{{  asset('js/jquery.countdown.min.js') }}"></script>
-    <script src="{{  asset('js/jquery.easing.1.3.js') }}"></script>
-    <script src="{{  asset('js/aos.js') }}"></script>
-    <script src="{{  asset('js/jquery.fancybox.min.js') }}"></script>
-    <script src="{{  asset('js/jquery.sticky.js') }}"></script>
-    <script src="{{  asset('js/isotope.pkgd.min.js') }}"></script>
+    <script src="js/calprestamo.min.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/floating-wpp.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
 
 
-    <script src="{{  asset('js/main.js') }}"></script>
+    <script src="js/main.js"></script>
 
 
 
 </body>
+<script type="text/javascript">
+
+</script>
 <script type="text/javascript">
     $(function() {
         $('#myButton').floatingWhatsApp({

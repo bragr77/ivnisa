@@ -72,9 +72,6 @@
                         <a class="btn btn-outline-primary" href="javascript:history.back(-1);" class="nav-link">Regresar</a>
                     </div>
 
-
-                    <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3"></span></a></div>
-
                 </div>
             </div>
 
@@ -105,7 +102,7 @@
                     <div class="form-group col-md-6 my-1">
                         <label for="cCuotas">Nro. de Cuotas:</label>
                         <select name="cuotas" id="cuotas" class="form-control" required>
-                            <option selected disabled value="0">Seleccionar...</option>
+                            <option selected disabled value="">Seleccionar...</option>
                             <option value="1">1</option>
                             <option value="2">2</option>
                             <option value="4">4</option>
@@ -167,7 +164,7 @@
                 <div class="col-md-4 mb-1">
                     <label class="text-black " for="edocivil">Estado Civil:</label>
                     <select name="edocivil" id="edocivil" class="form-control" required>
-                        <option selected disabled value="0">Seleccionar...</option>
+                        <option selected disabled value="">Seleccionar...</option>
                         <option value="Soltero(a)">Soltero(a)</option>
                         <option value="Casado(a)">Casado(a)</option>
                         <option value="Divorciado(a)">Divorciado(a)</option>
@@ -180,7 +177,7 @@
                 </div>
                 <div class="col-md-4 mb-1">
                     <label class="text-black " for="telefono">Teléfono Residencial:</label>
-                    <input type="text " name="telefono" id="telefono " class="form-control" required>
+                    <input type="text " name="telefono" id="telefono " class="form-control">
                 </div>
             </div>
 
@@ -191,7 +188,7 @@
                 </div>
                 <div class="col-md-4 mb-1">
                     <label class="text-black " for="nrohijos">Nro. de Hijos o Dependientes:</label>
-                    <input type="number" name="nrohijos" id="nrohijos " class="form-control" required>
+                    <input type="number" name="nrohijos" id="nrohijos " class="form-control">
                 </div>
             </div>
 
@@ -202,7 +199,7 @@
                 </div>
                 <div class="col-md-6 mb-1">
                     <label class="text-black " for="ptoerefe">Punto de Referencia:</label>
-                    <input type="text" name="ptorefe" id="ptorefe " class="form-control" required>
+                    <input type="text" name="ptorefe" id="ptorefe " class="form-control">
                 </div>
             </div>
 
@@ -251,7 +248,7 @@
                 <div class="col-md-4 mb-1">
                     <label class="text-black " for="slaboral">Situación Laboral:</label>
                     <select name="slaboral" id="slaboral" class="form-control" required>
-                        <option selected disabled value="0">Seleccionar...</option>
+                        <option selected disabled value="">Seleccionar...</option>
                         <option value="Empleado">Empleado</option>
                         <option value="Independiente">Independiente</option>
                     </select>
@@ -263,11 +260,22 @@
             </div>
 
             <div class="row form-group">
-                <div class="col-md-5 mb-1">
-                    <label class="text-black " for="tlaborando">Tiempo Laborando en la Empresa o Ocupación:</label>
-                    <input type="text " name="tlaborando" id="tlaborando " class="form-control" required>
-                </div>
                 <div class="col-md-4 mb-1">
+                    <label for="tlaborando">Tiempo Laborando en la Empresa:</label>
+                    <select name="tlaborando" id="tlaborando" class="form-control" required>
+                        <option selected disabled value="">Seleccionar...</option>
+                        <option value="Menos de 3 Meses ">Menos de 3 Meses</option>
+                        <option value="0 a 3 Meses ">0 a 3 Meses</option>
+                        <option value="3 a 6 Meses ">3 a 6 Meses</option>
+                        <option value="6 a 11 Meses ">6 a 11 Meses</option>
+                        <option value="de 1 a 2 Años ">de 1 a 2 Años</option>
+                        <option value="de 2 a 3 Años ">de 2 a 3 Años</option>
+                        <option value="de 3 a 4 Años ">de 3 a 4 Años</option>
+                        <option value="de 4 a 5 Años ">de 4 a 5 Años</option>
+                        <option value="Más de 5 Años ">Más 5 Años</option>
+                    </select>
+                </div>
+                <div class="col-md-5 mb-1">
                     <label class="text-black " for="cargo">Cargo:</label>
                     <input type="text " name="cargo" id="cargo " class="form-control" required>
                 </div>
@@ -288,7 +296,7 @@
                 </div>
                 <div class="col-md-3 mb-1">
                     <label class="text-black " for="otrosingresos">Otros Ingresos:</label>
-                    <input type="text" name="otrosingresos" id="otrosingresos " class="form-control" required>
+                    <input type="text" name="otrosingresos" id="otrosingresos " class="form-control">
                 </div>
             </div>
 
@@ -425,7 +433,7 @@
             <div class="row form-group">
                 <div class="col-md-6 mb-1">
                     <label class="text-black " for="referido">Referido Por:</label>
-                    <input type="text " name="referido" id="referido " class="form-control" required>
+                    <input type="text " name="referido" id="referido " class="form-control">
                 </div>
             </div>
 
@@ -463,15 +471,15 @@
 
                     <div class="col-md-4 text-center ">
                         <img src="img/footerlogo.png " class="mb-3 " alt="Logo Empresa ">
-                        <p class="text-justify ">Somos una empresa que apoyamos a los dominicanos, ofrecemos soluciones financieras que los ayudan a impulsar sus negocios y a solventar de manera rápida emergencias inesperadas.</p>
+                        <p class="text-justify ">Somos una empresa de servicios financieros enfocada en ser aliados estratégicos de cada cliente, ofreciéndole una alternativa de financiación fácil y rápida para el logro de sus objetivos o situaciones imprevista que requieren solución rápida.</p>
                     </div>
 
                     <div class="col-md-4 footer-social text-center ">
                         <h2 class="footer-heading mb-6 ">Redes Sociales</h2>
                         <div class="mt-5">
-                            <a href="# " class="pl-0 pr-3 " style="font-size: 52px; "><span class="icon-facebook "></span></a>
+                            <a href="https://www.facebook.com/inversionesnisa" class="pl-0 pr-3 " style="font-size: 52px;" target="_blank"><span class="icon-facebook "></span></a>
                             <a href="# " class="pl-3 pr-3 " style="font-size: 52px; "><span class="icon-twitter "></span></a>
-                            <a href="# " class="pl-3 pr-3 " style="font-size: 52px; "><span class="icon-instagram "></span></a>
+                            <a href="https://www.instagram.com/inversionesnisa/" class="pl-3 pr-3 " style="font-size: 52px;" target="_blank"><span class="icon-instagram "></span></a>
                         </div>
                     </div>
 
