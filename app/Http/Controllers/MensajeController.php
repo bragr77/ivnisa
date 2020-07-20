@@ -57,7 +57,7 @@ class MensajeController extends Controller
             'mensaje' => $request->input('mensaje'),
         ];
 
-        Mail::to('bragr77@gmail.com')->send(new MensajeRecibido($datosemail));
+        Mail::to('info@inversionesnisa.com')->send(new MensajeRecibido($datosemail));
 
         Mail::to($request->input('email'))->send(new RespuestaAutomatica($datosemail));
 

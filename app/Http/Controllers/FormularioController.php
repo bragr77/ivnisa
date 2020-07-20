@@ -57,7 +57,7 @@ class FormularioController extends Controller
         ];
 
 
-        Mail::to('bragr77@gmail.com')->send(new SolcitudRecibida($datosemail));
+        Mail::to('info@inversionesnisa.com')->send(new SolcitudRecibida($datosemail));
 
         Mail::to($request->input('email'))->send(new RespuestaAutomaticaSolicitud($datosemail));
 

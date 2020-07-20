@@ -79,7 +79,7 @@
                                 <li><a href="#pricing-section" class="nav-link">Servicios</a></li>
                                 <li><a href="#contact-section" class="nav-link">Contáctenos</a></li>
                                 <li class="social"><a href="https://www.facebook.com/inversionesnisa" class="nav-link" target="_blank"><span class="icon-facebook"></span></a></li>
-                                <li class="social"><a href="#" class="nav-link"><span class="icon-twitter"></span></a></li>
+                                <li class="social"><a href="https://twitter.com/InversionesNisa" class="nav-link" target="_blank"><span class="icon-twitter"></span></a></li>
                                 <li class="social"><a href="https://www.instagram.com/inversionesnisa/" class="nav-link" target="_blank"><span class="icon-instagram"></span></a></li>
                             </ul>
                         </nav>
@@ -160,7 +160,7 @@
                     <div class="col-md-8 text-center">
                         <h2 class="section-title mb-3" data-aos="fade-up" data-aos-delay="">Inversiones Nisa</h2>
                         <p class="lead" data-aos="fade-up" data-aos-delay="100">
-                            Somos una empresa de servicios financieros enfocada en ser aliados estratégicos de cada cliente, ofreciéndole una alternativa de financiación fácil y rápida para el logro de sus objetivos o situaciones imprevista que requieren solución rápida.
+                            Somos una empresa de servicios financieros enfocada en ser aliados estratégicos de cada cliente, ofreciéndole una alternativa de financiación fácil y rápida para el logro de sus objetivos o situaciones imprevistas que requieran soluciones rápidas.
                         </p>
                     </div>
                 </div>
@@ -173,7 +173,7 @@
                     </div>
                     <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
 
-                        <h1 class="text-primary mb-4">
+                        <h1 class="mb-4" style="color: #074C46">
                             <strong>Te ayudamos a crecer</strong>
                         </h1>
 
@@ -220,7 +220,7 @@
                 <div class="row mt-5">
                     <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
 
-                        <h1 class="text-primary mb-4">
+                        <h1 class="mb-4" style="color: #074C46">
                             <strong>Nuestros Valores</strong>
                         </h1>
 
@@ -509,7 +509,7 @@
                             <img src="img/slide_2.jpg " alt="Image " class="img-fluid img-thumbnail ">
                             <img src="img/slide_3.jpg " alt="Image " class="img-fluid img-thumbnail ">
                         </div>
-                        <div class="custom-direction ">
+                        <div class="custom-direction">
                             <a href="# " class="custom-prev "><span><span class="icon-keyboard_backspace "></span></span></a><a href="# " class="custom-next "><span><span class="icon-keyboard_backspace "></span></span></a>
                         </div>
 
@@ -518,18 +518,18 @@
 
                         <div class="owl-carousel slide-one-item-alt-text ">
                             <div>
-                                <h2 class="section-title mb-3 ">1. Calcula tu préstamo.</h2>
+                                <h2 class=" mb-3" style="color: #074C46">1. Calcula tu préstamo.</h2>
                                 <p>Elige el monto de tu préstamo y el plazo que requieras para pagarlo. Acomoda la cuota a tu conveniencia.</p>
 
                                 <p><a href="https://inversionesnisa.com/proyecto/solicitud" class="btn btn-primary mr-2 mb-2 ">Solicitar</a></p>
                             </div>
                             <div>
-                                <h2 class="section-title mb-3 ">2. Completa el formulario online.</h2>
+                                <h2 class=" mb-3" style="color: #074C46">2. Completa el formulario online.</h2>
                                 <p>Rellena el formulario de solicitud, fácil y sencillo, solo te llevará un par de minutos.</p>
                                 <p><a href="https://inversionesnisa.com/proyecto/solicitud" class="btn btn-primary mr-2 mb-2 ">Solicitar</a></p>
                             </div>
                             <div>
-                                <h2 class="section-title mb-3 ">3. Aprobación y contacto.</h2>
+                                <h2 class=" mb-3" style="color: #074C46">3. Aprobación y contacto.</h2>
                                 <p>Nuestro equipo analizará su solicitud y de ser aprobado su préstamo, le estaremos contactando en un plazo de 24 horas.</p>
 
                                 <p><a href="https://inversionesnisa.com/proyecto/solicitud" class="btn btn-primary mr-2 mb-2 ">Solicitar</a></p>
@@ -575,7 +575,7 @@
                     <div class="col-md-12 mb-5 ">
                         <form action="{{ route('mensaje.store') }}" method="POST" class="p-5 bg-white ">
 
-                        <h2 class="h4 text-black mb-5 ">Envíenos un mensaje.</h2>
+                        <h2 class="mb-5 font-weight-bold" style="color: #074C46" >Envíenos un mensaje.</h2>
 
                         @csrf
 
@@ -661,7 +661,7 @@
                     <div class="col-md-4 text-center ">
                         <img src="img/footerlogo.png " class="mb-3 " alt="Logo Empresa ">
                         <p class="text-justify ">
-                            Somos una empresa de servicios financieros enfocada en ser aliados estratégicos de cada cliente, ofreciéndole una alternativa de financiación fácil y rápida para el logro de sus objetivos o situaciones imprevista que requieren solución rápida.
+                            Somos una empresa de servicios financieros enfocada en ser aliados estratégicos de cada cliente, ofreciéndole una alternativa de financiación fácil y rápida para el logro de sus objetivos o situaciones imprevistas que requieran soluciones rápidas.
                         </p>
                     </div>
 
@@ -669,7 +669,7 @@
                         <h2 class="footer-heading mb-6 ">Redes Sociales</h2>
                         <div class="mt-5">
                             <a href="https://www.facebook.com/inversionesnisa" class="pl-0 pr-3 " style="font-size: 52px;" target="_blank"><span class="icon-facebook "></span></a>
-                            <a href="# " class="pl-3 pr-3 " style="font-size: 52px; "><span class="icon-twitter "></span></a>
+                            <a href="https://twitter.com/InversionesNisa" class="pl-3 pr-3 " style="font-size: 52px;" target="_blank"><span class="icon-twitter "></span></a>
                             <a href="https://www.instagram.com/inversionesnisa/" class="pl-3 pr-3 " style="font-size: 52px;" target="_blank"><span class="icon-instagram "></span></a>
                         </div>
                     </div>
@@ -677,15 +677,15 @@
 
                     <div class="col-md-4 text-justify ">
                         <h2 class="footer-heading mb-4 text-center">Contacto</h2>
-                        <span class="icon-room text-justify" style="font-size: 32px; color: #FD7E14"></span>
+                        <span class="icon-room text-justify" style="font-size: 32px; color: #fff"></span>
                         <span style="color: #fff;">Bávaro, La Altagracia. República Dominicana</span>
                         <br>
                         <br>
-                        <span class="icon-phone_iphone" style="font-size: 32px; color: #FD7E14"></span>
+                        <span class="icon-phone_iphone" style="font-size: 32px; color: #fff"></span>
                         <span style="color: #fff;">+1 (829) 3129274</span>
                         <br>
                         <br>
-                        <span class="icon-mail_outline" style="font-size: 32px; color: #FD7E14"></span>
+                        <span class="icon-mail_outline" style="font-size: 32px; color: #fff"></span>
                         <span style="color: #fff;">info@inversionesnisa.com</span>
                     </div>
                 </div>

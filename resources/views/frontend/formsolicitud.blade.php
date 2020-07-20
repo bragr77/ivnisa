@@ -69,7 +69,7 @@
                     </div>
 
                     <div class="col-6 d-flex justify-content-center">
-                        <a class="btn btn-outline-primary" href="javascript:history.back(-1);" class="nav-link">Regresar</a>
+                        <a class="btn btn-outline-success" href="javascript:history.back(-1);" class="nav-link">Regresar</a>
                     </div>
 
                 </div>
@@ -486,15 +486,15 @@
 
                     <div class="col-md-4 text-justify ">
                         <h2 class="footer-heading mb-4 text-center">Contacto</h2>
-                        <span class="icon-room text-justify" style="font-size: 32px; color: #FD7E14"></span>
+                        <span class="icon-room text-justify" style="font-size: 32px; color: #fff"></span>
                         <span style="color: #fff;">Bávaro, La Altagracia. República Dominicana</span>
                         <br>
                         <br>
-                        <span class="icon-phone_iphone" style="font-size: 32px; color: #FD7E14"></span>
+                        <span class="icon-phone_iphone" style="font-size: 32px; color: #fff"></span>
                         <span style="color: #fff;">+1 (829) 3129274</span>
                         <br>
                         <br>
-                        <span class="icon-mail_outline" style="font-size: 32px; color: #FD7E14"></span>
+                        <span class="icon-mail_outline" style="font-size: 32px; color: #fff"></span>
                         <span style="color: #fff;">info@inversionesnisa.com</span>
                     </div>
                 </div>
