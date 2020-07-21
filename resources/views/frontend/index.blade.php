@@ -135,7 +135,7 @@
                             <button type="button" class="btn btn-success m-2" data-toggle="modal" data-target="#exampleModal">
                                 Calcular Préstamo
                             </button>
-                            <a href="https://inversionesnisa.com/proyecto/solicitud" class="btn btn-primary m-2">Solicitar Préstamo</a>
+                            <a href="https://inversionesnisa.com/solicitud" class="btn btn-primary m-2">Solicitar Préstamo</a>
                         </div>
                     </div>
                     <!-- Final de Aqui van los sliders -->
@@ -268,7 +268,7 @@
                                 <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#card1">
                                     Requisitos
                                 </button>
-                                <a href="https://inversionesnisa.com/proyecto/solicitud" class="btn btn-primary btn-sm ">Solicitar</a>
+                                <a href="https://inversionesnisa.com/solicitud" class="btn btn-primary btn-sm ">Solicitar</a>
                             </div>
                         </div>
                     </div>
@@ -284,7 +284,7 @@
                                 <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#card2">
                                     Requisitos
                                 </button>
-                                <a href="https://inversionesnisa.com/proyecto/solicitud" class="btn btn-primary btn-sm ">Solicitar</a>
+                                <a href="https://inversionesnisa.com/solicitud" class="btn btn-primary btn-sm ">Solicitar</a>
                             </div>
                         </div>
                     </div>
@@ -300,7 +300,7 @@
                                 <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#card3">
                                     Requisitos
                                 </button>
-                                <a href="https://inversionesnisa.com/proyecto/solicitud" class="btn btn-primary btn-sm ">Solicitar</a>
+                                <a href="https://inversionesnisa.com/solicitud" class="btn btn-primary btn-sm ">Solicitar</a>
                             </div>
                         </div>
                     </div>
@@ -313,7 +313,7 @@
                                 <p class="card-text text-justify">Préstamo para adquirir tu vehículo nuevo o usado, mejoramos cualquier tasa que te hayan ofrecido.</p>
                             </div>
                             <div class="card-footer btn-group ">
-                                <a href="https://inversionesnisa.com/proyecto/solicitud" class="btn btn-primary btn-sm ">Solicitar</a>
+                                <a href="https://inversionesnisa.com/solicitud" class="btn btn-primary btn-sm ">Solicitar</a>
                             </div>
                         </div>
                     </div>
@@ -326,7 +326,7 @@
                                 <p class="card-text text-justify">Préstamo destinado para la adquisición de tu casa, apartamento o cualquier inmueble a tasas muy atractivas.</p>
                             </div>
                             <div class="card-footer btn-group ">
-                                <a href="https://inversionesnisa.com/proyecto/solicitud" class="btn btn-primary btn-sm ">Solicitar</a>
+                                <a href="https://inversionesnisa.com/solicitud" class="btn btn-primary btn-sm ">Solicitar</a>
                             </div>
                         </div>
                     </div>
@@ -339,7 +339,7 @@
                                 <p class="card-text text-justify">Agrupamos tus deudas en una sola, tasa competitiva, excelentes condiciones, recupera el control de tus finanzas.</p>
                             </div>
                             <div class="card-footer btn-group ">
-                                <a href="https://inversionesnisa.com/proyecto/solicitud" class="btn btn-primary btn-sm ">Solicitar</a>
+                                <a href="https://inversionesnisa.com/solicitud" class="btn btn-primary btn-sm ">Solicitar</a>
                             </div>
                         </div>
                     </div>
@@ -355,36 +355,36 @@
                                     </button>
                                 </div>
                                 <div class="modal-body">
-                                    <span class="icon-check-square-o " style="font-size: 20px; color: #FD7E14 "></span>
+                                    <span class="icon-check-square-o " style="font-size: 20px; color: #074C46 "></span>
                                     <span>Llenar el formulario de solicitud de préstamo online.</span>
                                     <br/>
 
-                                    <span class="icon-check-square-o " style="font-size: 20px; color: #FD7E14 "></span>
+                                    <span class="icon-check-square-o " style="font-size: 20px; color: #074C46 "></span>
                                     <span>Estar laborando, tener un periodo mínimo de 6 meses en la empresa.</span>
                                     <br/>
 
-                                    <span class="icon-check-square-o " style="font-size: 20px; color: #FD7E14 "></span>
+                                    <span class="icon-check-square-o " style="font-size: 20px; color: #074C46 "></span>
                                     <span>Carta de trabajo</span>
                                     <br/>
 
-                                    <span class="icon-check-square-o " style="font-size: 20px; color: #FD7E14 "></span>
+                                    <span class="icon-check-square-o " style="font-size: 20px; color: #074C46 "></span>
                                     <span>Cobrar por nómina bancaria.</span>
                                     <br>
 
-                                    <span class="icon-check-square-o " style="font-size: 20px; color: #FD7E14 "></span>
+                                    <span class="icon-check-square-o " style="font-size: 20px; color: #074C46 "></span>
                                     <span>Copia de cédula de identidad y electoral de ambos lados o pasaporte.</span>
                                     <br/>
 
-                                    <span class="icon-check-square-o " style="font-size: 20px; color: #FD7E14 "></span>
+                                    <span class="icon-check-square-o " style="font-size: 20px; color: #074C46 "></span>
                                     <span>Estado de cuenta bancaria (últimos 3 meses)</span>
                                     <br/>
 
-                                    <span class="icon-check-square-o " style="font-size: 20px; color: #FD7E14 "></span>
+                                    <span class="icon-check-square-o " style="font-size: 20px; color: #074C46 "></span>
                                     <span>Residir en la Provincia La Altagracia.</span>
 
                                 </div>
                                 <div class="modal-footer">
-                                    <a href="https://inversionesnisa.com/proyecto/solicitud" class="btn btn-primary ">Solicitar</a>
+                                    <a href="https://inversionesnisa.com/solicitud" class="btn btn-primary ">Solicitar</a>
                                     <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
                                 </div>
                             </div>
@@ -401,35 +401,35 @@
                                     </button>
                                 </div>
                                 <div class="modal-body ">
-                                    <span class="icon-check-square-o " style="font-size: 20px; color: #FD7E14 "></span>
+                                    <span class="icon-check-square-o " style="font-size: 20px; color: #074C46"></span>
                                     <span>Llenar el formulario de solicitud de préstamo online.</span>
                                     <br/>
 
-                                    <span class="icon-check-square-o " style="font-size: 20px; color: #FD7E14 "></span>
+                                    <span class="icon-check-square-o " style="font-size: 20px; color: #074C46"></span>
                                     <span>Copia de cédula de identidad y electoral de ambos lado o pasaporte.</span>
                                     <br/>
 
-                                    <span class="icon-check-square-o " style="font-size: 20px; color: #FD7E14 "></span>
+                                    <span class="icon-check-square-o " style="font-size: 20px; color: #074C46"></span>
                                     <span>Certificación de ingresos. (Carta de trabajo o declaración jurada de ingresos).</span>
                                     <br/>
 
-                                    <span class="icon-check-square-o " style="font-size: 20px; color: #FD7E14 "></span>
+                                    <span class="icon-check-square-o " style="font-size: 20px; color: #074C46"></span>
                                     <span>Estado de cuenta bancaria (últimos 6 meses).</span>
                                     <br>
 
-                                    <span class="icon-check-square-o " style="font-size: 20px; color: #FD7E14 "></span>
+                                    <span class="icon-check-square-o " style="font-size: 20px; color: #074C46"></span>
                                     <span>Contrato de alquiler, si el local es alquilado.</span>
                                     <br/>
 
-                                    <span class="icon-check-square-o " style="font-size: 20px; color: #FD7E14 "></span>
+                                    <span class="icon-check-square-o " style="font-size: 20px; color: #074C46"></span>
                                     <span>Varias facturas de suplidores o servicios contratados (teléfono, luz, cable) de su negocio.</span>
                                     <br/>
 
-                                    <span class="icon-check-square-o " style="font-size: 20px; color: #FD7E14 "></span>
+                                    <span class="icon-check-square-o " style="font-size: 20px; color: #074C46"></span>
                                     <span>Garante solidario.</span>
                                 </div>
                                 <div class="modal-footer">
-                                    <a href="https://inversionesnisa.com/proyecto/solicitud" class="btn btn-primary ">Solicitar</a>
+                                    <a href="https://inversionesnisa.com/solicitud" class="btn btn-primary ">Solicitar</a>
                                     <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
                                 </div>
                             </div>
@@ -446,39 +446,39 @@
                                     </button>
                                 </div>
                                 <div class="modal-body ">
-                                    <span class="icon-check-square-o " style="font-size: 20px; color: #FD7E14 "></span>
+                                    <span class="icon-check-square-o " style="font-size: 20px; color: #074C46"></span>
                                     <span>Solicitud debidamente completada.</span>
                                     <br/>
 
-                                    <span class="icon-check-square-o " style="font-size: 20px; color: #FD7E14 "></span>
+                                    <span class="icon-check-square-o " style="font-size: 20px; color: #074C46"></span>
                                     <span>Certificación de ingresos. (Carta de trabajo o declaración jurada de ingresos).</span>
                                     <br/>
 
-                                    <span class="icon-check-square-o " style="font-size: 20px; color: #FD7E14 "></span>
+                                    <span class="icon-check-square-o " style="font-size: 20px; color: #074C46"></span>
                                     <span>Los últimos seis (6) meses de estado de cuenta bancario sellado.</span>
                                     <br/>
 
-                                    <span class="icon-check-square-o " style="font-size: 20px; color: #FD7E14 "></span>
+                                    <span class="icon-check-square-o " style="font-size: 20px; color: #074C46"></span>
                                     <span>Copia de cédula de identidad y electoral de de ambos lado o pasaporte.</span>
                                     <br>
 
-                                    <span class="icon-check-square-o " style="font-size: 20px; color: #FD7E14 "></span>
+                                    <span class="icon-check-square-o " style="font-size: 20px; color: #074C46"></span>
                                     <span>Copia del certificado del título de propiedad.</span>
                                     <br/>
 
-                                    <span class="icon-check-square-o " style="font-size: 20px; color: #FD7E14 "></span>
+                                    <span class="icon-check-square-o " style="font-size: 20px; color: #074C46"></span>
                                     <span>Tasación del inmueble.</span>
                                     <br/>
 
-                                    <span class="icon-check-square-o " style="font-size: 20px; color: #FD7E14 "></span>
+                                    <span class="icon-check-square-o " style="font-size: 20px; color: #074C46"></span>
                                     <span>Certificado de estado jurídico del inmueble (cargas y gravámenes), con antigüedad no mayor de 15 días.</span>
                                     <br/>
 
-                                    <span class="icon-check-square-o " style="font-size: 20px; color: #FD7E14 "></span>
+                                    <span class="icon-check-square-o " style="font-size: 20px; color: #074C46"></span>
                                     <span>Certificación de impuesto de propiedad inmobiliaria (IPI) al día.</span>
                                 </div>
                                 <div class="modal-footer">
-                                    <a href="https://inversionesnisa.com/proyecto/solicitud" class="btn btn-primary ">Solicitar</a>
+                                    <a href="https://inversionesnisa.com/solicitud" class="btn btn-primary ">Solicitar</a>
                                     <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
                                 </div>
                             </div>
@@ -521,18 +521,18 @@
                                 <h2 class=" mb-3" style="color: #074C46">1. Calcula tu préstamo.</h2>
                                 <p>Elige el monto de tu préstamo y el plazo que requieras para pagarlo. Acomoda la cuota a tu conveniencia.</p>
 
-                                <p><a href="https://inversionesnisa.com/proyecto/solicitud" class="btn btn-primary mr-2 mb-2 ">Solicitar</a></p>
+                                <p><a href="https://inversionesnisa.com/solicitud" class="btn btn-primary mr-2 mb-2 ">Solicitar</a></p>
                             </div>
                             <div>
                                 <h2 class=" mb-3" style="color: #074C46">2. Completa el formulario online.</h2>
                                 <p>Rellena el formulario de solicitud, fácil y sencillo, solo te llevará un par de minutos.</p>
-                                <p><a href="https://inversionesnisa.com/proyecto/solicitud" class="btn btn-primary mr-2 mb-2 ">Solicitar</a></p>
+                                <p><a href="https://inversionesnisa.com/solicitud" class="btn btn-primary mr-2 mb-2 ">Solicitar</a></p>
                             </div>
                             <div>
                                 <h2 class=" mb-3" style="color: #074C46">3. Aprobación y contacto.</h2>
                                 <p>Nuestro equipo analizará su solicitud y de ser aprobado su préstamo, le estaremos contactando en un plazo de 24 horas.</p>
 
-                                <p><a href="https://inversionesnisa.com/proyecto/solicitud" class="btn btn-primary mr-2 mb-2 ">Solicitar</a></p>
+                                <p><a href="https://inversionesnisa.com/solicitud" class="btn btn-primary mr-2 mb-2 ">Solicitar</a></p>
                             </div>
 
                         </div>
@@ -629,7 +629,7 @@
                 <div class="row justify-content-center ">
                     <div class="col-md-7 text-center ">
                         <h2 class="section-title mb-3 " data-aos="fade-up" data-aos-delay=" ">Instagram</h2>
-                        <p class="lead " data-aos="fade-up " data-aos-delay="">Sigue nuestros Post y mantente actualizado sobre nuestros servicios.</p>
+                        <p class="lead " data-aos="fade-up " data-aos-delay="">Sigue nuestros post y mantente actualizado sobre nuestros servicios.</p>
                     </div>
                 </div>
             </div>

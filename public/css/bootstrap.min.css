@@ -2757,8 +2757,8 @@ fieldset:disabled a.btn {
 
 .btn-primary:focus,
 .btn-primary.focus {
-    -webkit-box-shadow: 0 0 0 0.2rem rgba(220, 113, 23, 0.5);
-    box-shadow: 0 0 0 0.2rem rgba(220, 113, 23, 0.5);
+    -webkit-box-shadow: 0 0 0 0.2rem #074C46;
+    box-shadow: 0 0 0 0.2rem #074C46);
 }
 
 .btn-primary.disabled,
@@ -2779,8 +2779,8 @@ fieldset:disabled a.btn {
 .btn-primary:not(:disabled):not(.disabled):active:focus,
 .btn-primary:not(:disabled):not(.disabled).active:focus,
 .show>.btn-primary.dropdown-toggle:focus {
-    -webkit-box-shadow: 0 0 0 0.2rem rgba(220, 113, 23, 0.5);
-    box-shadow: 0 0 0 0.2rem rgba(220, 113, 23, 0.5);
+    -webkit-box-shadow: 0 0 0 0.2rem #074C46;
+    box-shadow: 0 0 0 0.2rem #074C46;
 }
 
 .btn-secondary {
