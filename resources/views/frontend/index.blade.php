@@ -634,7 +634,7 @@
                 </div>
             </div>
             <!-- LightWidget WIDGET -->
-            <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/0f112bee5f395f3c83b973c51a914820.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+            <!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="https://cdn.lightwidget.com/widgets/5d41ffd97fcb579f9f3102dd930a1606.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
         </section>
         <!-- fin sección feed Instagram Monitores grandes -->
         <!--  Incio sección feed Instagram dispostivos moviles -->
