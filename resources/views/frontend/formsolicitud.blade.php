@@ -503,8 +503,8 @@
                         <div class="border-top pt-5 ">
                             <p class="copyright ">
                                 <small>
-                                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos los derechos reservados | Este sitio web fue creado Por: <a href="https://nitidezcreativa.com " target="_blank
-                        " >NitidezCreativaRD</a> & <a href="https://rgonzalez.com.ve " target="_blank " >Raúl González</a>
+                                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos los derechos reservados | Este sitio web fue creado Por: <a href="https://www.instagram.com/alrishasocialmedia/" target="_blank">
+                                        Alrisha Social Media</a> & <a href="https://rgonzalez.com.ve " target="_blank " >Raúl González</a>
                                 </small>
                             </p>
                         </div>

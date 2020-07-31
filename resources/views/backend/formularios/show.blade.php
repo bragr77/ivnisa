@@ -42,6 +42,7 @@
     <hr>
     <p class="text-dark font-weight-bold">NOMBRE: <span class="font-weight-normal">{{$formulario->nombre }} </span></p>
     <p class="text-dark font-weight-bold">APELLIDO: <span class="font-weight-normal">{{$formulario->apellido }} </span></p>
+    <p class="text-dark font-weight-bold">CÉDULA: <span class="font-weight-normal">{{$formulario->cedula }} </span></p>
     <p class="text-dark font-weight-bold">ESTADO CIVIL: <span class="font-weight-normal">{{$formulario->edocivil }} </span></p>        <p class="text-dark font-weight-bold">CELULAR: <span class="font-weight-normal">{{$formulario->celular }}</span></p>
     <p class="text-dark font-weight-bold">TELÉFONO RESIDENCIAL: <span class="font-weight-normal">{{$formulario->telefono }}</span></p>
     <p class="text-dark font-weight-bold">CORREO ELECTRÓNICO : <span class="font-weight-normal">{{$formulario->email }}</span></p>
