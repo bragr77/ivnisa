@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <link rel="icon" type="image/png" href="{{ asset('img/favicon.png') }}" />
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('fonts/icomoon/style.css') }}">
@@ -29,7 +29,7 @@
 
     <link rel="stylesheet" href="{{ asset('css/tabla.css') }}">
 
-    /<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/coliff/bootstrap-rfs/bootstrap-rfs.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/coliff/bootstrap-rfs/bootstrap-rfs.css">
 
     <script src="{{ asset('js/app.js') }}" defer></script>
 </head>
@@ -67,10 +67,16 @@
                             <a class="nav-link" href="{{ route('formulario.index') }}">Solicitudes</a>
                         </li>
 
+                        @if (Auth::user()->email == "bragr77@gmail.com")
+                            <a class="nav-link" href="{{ route('usuario.index') }}">Usuarios</a>
+
+                        @endif
+
                         <li class="nav-item dropdown">
                             <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                 {{ Auth::user()->name }} <span class="caret"></span>
                             </a>
+
 
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item" href="{{ route('logout') }}"
@@ -78,15 +84,18 @@
                                                  document.getElementById('logout-form').submit();">
                                     Cerrar Sesión
                                 </a>
-                                <a class="dropdown-item" href="{{ route('register') }}">
+
+                                {{--  <a class="dropdown-item" href="{{ route('register') }}">
                                     Registrar Usuario
-                                </a>
+                                </a>  --}}
+
 
                                 <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                     @csrf
                                 </form>
                             </div>
                         </li>
+
                     @endguest
                 </ul>
             </div>

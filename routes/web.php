@@ -31,3 +31,4 @@ Route::get('/panel', 'HomeController@index')->name('panel');
 
 Route::resource('mensaje', 'MensajeController');
 Route::resource('formulario', 'FormularioController');
+Route::resource('usuario', 'UsuarioController');

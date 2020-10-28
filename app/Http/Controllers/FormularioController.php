@@ -57,9 +57,9 @@ class FormularioController extends Controller
         ];
 
 
-        Mail::to('info@inversionesnisa.com')->send(new SolcitudRecibida($datosemail));
+       /*  Mail::to('realzaraul@gmail.com')->send(new SolcitudRecibida($datosemail));
 
-        Mail::to($request->input('email'))->send(new RespuestaAutomaticaSolicitud($datosemail));
+        Mail::to($request->input('email'))->send(new RespuestaAutomaticaSolicitud($datosemail)); */
 
         //salvar en base de datos
 
@@ -109,9 +109,11 @@ class FormularioController extends Controller
 
         $formulario->save();
 
+        Mail::to('realzaraul@gmail.com')->send(new SolcitudRecibida($datosemail));
+
+        Mail::to($request->input('email'))->send(new RespuestaAutomaticaSolicitud($datosemail));
+
         return redirect()->route('msjenviado');
-
-
 
 
     }

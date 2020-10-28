@@ -7,7 +7,7 @@
 
     <h3>Este correo fue enviado desde el portal www.inversionesnisa.com</h3>
 
-    <h4>Por el Sr(a). {{ $datosemail['nombre'] }} {{ $datosemail['apellido'] }}</h4>
+    <h4>Por el Sr(a). {{ $datosemail['nombre'] }}  {{ $datosemail['apellido'] }} </h4>
 
     <h4>Telefono: {{ $datosemail['telefono'] }} </h4>
 

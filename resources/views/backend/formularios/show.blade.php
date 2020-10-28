@@ -71,7 +71,7 @@
     <p class="text-dark font-weight-bold">SUELDO: <span class="font-weight-normal">{{$formulario->sueldo }}</span></p>
     <p class="text-dark font-weight-bold">JEFE INMEDIATO O SUPERVISOR: <span class="font-weight-normal">{{$formulario->jinmediato }}</span></p>
     <p class="text-dark font-weight-bold">TELÉFONO: <span class="font-weight-normal">{{$formulario->telefonojefe }}</span></p>
-    <p class="text-dark font-weight-bold">OTROS INGRESOS: <span class="font-weight-normal">{{$formulario->otrosingresos }} DOP</span></p>
+    <p class="text-dark font-weight-bold">OTROS INGRESOS: <span class="font-weight-normal">{{$formulario->otrosingresos }}</span></p>
 </div>
 <hr>
 {{--  Fin Datos LAborales  --}}

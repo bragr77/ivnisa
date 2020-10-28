@@ -97,10 +97,10 @@
                 <div class="row form-group">
                     <div class="col-md-6 my-1 ">
                         <label class="text-black " for="cantidad">Cantidad Solicitada en DOP:</label>
-                        <input type="number" name="cantidad" id="cantidad " class="form-control" required>
+                        <input type="text" name="cantidad" id="cantidad " class="form-control" required>
                     </div>
                     <div class="form-group col-md-6 my-1">
-                        <label for="cCuotas">Nro. de Cuotas:</label>
+                        <label for="Cuotas">Nro. de Cuotas:</label>
                         <select name="cuotas" id="cuotas" class="form-control" required>
                             <option selected disabled value="">Seleccionar...</option>
                             <option value="1">1</option>
@@ -188,7 +188,7 @@
                 </div>
                 <div class="col-md-4 mb-1">
                     <label class="text-black " for="nrohijos">Nro. de Hijos o Dependientes:</label>
-                    <input type="number" name="nrohijos" id="nrohijos " class="form-control">
+                    <input type="text" name="nrohijos" id="nrohijos " class="form-control">
                 </div>
             </div>
 
@@ -281,7 +281,7 @@
                 </div>
                 <div class="col-md-3 mb-1">
                     <label class="text-black " for="sueldo">Sueldo en DOP:</label>
-                    <input type="number" name="sueldo" id="sueldo " class="form-control" required>
+                    <input type="text" name="sueldo" id="sueldo " class="form-control" required>
                 </div>
             </div>
 
@@ -296,7 +296,7 @@
                 </div>
                 <div class="col-md-3 mb-1">
                     <label class="text-black " for="otrosingresos">Otros Ingresos:</label>
-                    <input type="text" name="otrosingresos" id="otrosingresos " class="form-control">
+                    <input type="text" name="otrosingresos" id="otrosingresos" class="form-control">
                 </div>
             </div>
 
@@ -433,7 +433,7 @@
             <div class="row form-group">
                 <div class="col-md-6 mb-1">
                     <label class="text-black " for="referido">Referido Por:</label>
-                    <input type="text " name="referido" id="referido " class="form-control">
+                    <input type="text " name="referido" id="referido" class="form-control">
                 </div>
             </div>
 

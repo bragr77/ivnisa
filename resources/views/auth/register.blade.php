@@ -109,7 +109,7 @@
                                     <button type="submit" class="btn btn-primary">
                                         Registrar
                                     </button>
-                                    <a href="{{ route('panel') }}" class="btn btn-danger">Salir</a>
+                                    <a href="{{ route('usuario.index') }}" class="btn btn-danger">Salir</a>
                                 </div>
 
                             </div>

@@ -33,15 +33,14 @@
                     <img src="img/navlogo2.png" alt="Logo Empresa">
                 </div>
                 <div class="card-body text-center">
-                  <h5 class="card-title">Tú Mensaje ha sido enviado</h5>
-                  <p class="card-text">Hemos recibido tu solicitud. Serás contactado a la mayor brevedad posible</p>
+                  <h5 class="card-title">Tu mensaje ha sido enviado.</h5>
+                  <p class="card-text">Hemos recibido tu solicitud. Serás contactado a la mayor brevedad posible.</p>
                   <p class="card-text">¡Gracias por comunicarte con nosotros!</p>
                   <br>
-                  <a class="btn btn-primary btn-block" href="{{ route('index') }}">Regresar</a>
+                  <a class="btn btn-primary btn-block" href="{{ route('/') }}">Regresar</a>
                 </div>
             </div>
         </div>
-
 
     </div>
 
